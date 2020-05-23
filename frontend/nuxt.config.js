@@ -21,7 +21,7 @@ export default {
 
   //Module Config
   axios: {
-    baseURL: 'http://localhost:5000'
+    baseURL: process.env.backend_url || 'http://localhost:5000'
   },
 
   //UI Config

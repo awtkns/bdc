@@ -13,7 +13,11 @@ def read_csv(fp):
 
 
 def df_to_datatable(df):
-    df = df.loc[:, '2000':]
+    try:
+        df = df.loc[:, '2000':]
+    except KeyError:
+        pass
+
     df = df.append(df.describe())
     df_dict = json.loads(df.to_json(orient='table', double_precision=3))
 

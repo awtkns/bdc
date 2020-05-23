@@ -2,13 +2,10 @@ import os
 import pandas as pd
 import json
 
-
-def dump():
-    return df_to_datatable(read_csv())
+from inflection import humanize
 
 
-def read_csv():
-    fp = os.path.join(os.path.dirname(__file__), 'breast_cancer_new_cases_per_100000_women.csv')
+def read_csv(fp):
     df = pd.read_csv(fp)
     df.index = df['country']
     df.drop(columns=['country'], inplace=True)
@@ -29,3 +26,19 @@ def df_to_datatable(df):
 
 def get_headers(fields: dict):
     return [{'text': f['name'], 'value': f['name']} for f in fields]
+
+
+def get_datasets():
+    web_dir = os.path.join(os.path.dirname(__file__), 'web_ready')
+
+    datasets = {}
+    for (slug, f_name) in enumerate(os.listdir(web_dir)):
+        fp = os.path.join(web_dir, f_name)
+        df = read_csv(fp)
+        print(slug)
+        datasets[str(slug)] = {
+            'title': humanize(f_name.strip('.csv')),
+            'table': df_to_datatable(df)
+        }
+
+    return datasets

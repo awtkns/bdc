@@ -1,4 +1,7 @@
 # BDC 2020
+![Node.js CI](https://github.com/adam-watkins/bdc/workflows/Node.js%20CI/badge.svg?branch=master)
+![API](https://img.shields.io/website?label=api&style=plastic&url=https%3A%2F%2Fawatkins.ca)
+
 Use conda to install requirements.
 ```
 conda env create -f env.yml

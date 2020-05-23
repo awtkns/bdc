@@ -35,7 +35,7 @@ def get_datasets():
     for (slug, f_name) in enumerate(os.listdir(web_dir)):
         fp = os.path.join(web_dir, f_name)
         df = read_csv(fp)
-        print(slug)
+
         datasets[str(slug)] = {
             'title': humanize(f_name.strip('.csv')),
             'table': df_to_datatable(df)

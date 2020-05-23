@@ -17,6 +17,5 @@ def get_available_dataset():
 
 @app.route('/<slug>')
 def get_dataset(slug):
-    print(datasets.keys())
     return datasets[str(slug)], 200
 

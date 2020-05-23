@@ -1,0 +1,29 @@
+variables:
+  CHE: current health expenditure
+  GDP: gross domestic product
+  OOP: out of pocket
+  PPP: purchasing power parity
+
+
+csv:
+  CHE_GDP:
+    title: Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%) (Health financing)
+    url: https://apps.who.int/gho/data/node.imr.GHED_CHEGDP_SHA2011?lang=en
+  cancer_prevention:
+    title: Primary and secondary prevention of cancer response by country
+    url: https://apps.who.int/gho/data/view.main.24766
+  cancer_action_plan:
+    title: Policies, strategies and action plans data by country
+    url: https://apps.who.int/gho/data/view.main.2473
+  OOP_pc_PPP:
+    title: Out-of-pocket expenditure (OOP) per capita in PPP (Health Financing)
+    url: https://apps.who.int/gho/data/view.main.GHEDOOPpcPPPSHA2011v
+  OOP_pc_USD:
+    title: Out-of-pocket expenditure (OOP) per capita in USD (Health Financing)
+    url: https://apps.who.int/gho/data/node.main.GHEDOOPpcUSSHA2011?lang=en
+  CHE_pc_USD:
+    title:  Current health expenditure (CHE) per capita in US$ data by country
+    url: https://apps.who.int/gho/data/node.main.GHEDOOPpcUSSHA2011?lang=en
+  CHE_pc_PPP:
+    title: Current health expenditure (CHE) per capita in PPP data by country
+    url: https://apps.who.int/gho/data/node.main.GHEDCHEpcPPPSHA2011?lang=en

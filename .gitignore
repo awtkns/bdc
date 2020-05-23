@@ -2,3 +2,5 @@
 /frontend/.nuxt/
 /frontend/dist/
 .idea
+/.nuxt/
+/node_modules/

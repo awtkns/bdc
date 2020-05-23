@@ -7,12 +7,6 @@ def dump():
     return df_to_datatable(read_csv())
 
 
-def describe():
-    df = read_csv()
-    df = df.append(df.describe())
-    return df.loc[:, '2000':]
-
-
 def read_csv():
     fp = os.path.join(os.path.dirname(__file__), 'breast_cancer_new_cases_per_100000_women.csv')
     df = pd.read_csv(fp)

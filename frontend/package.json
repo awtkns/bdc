@@ -1,0 +1,20 @@
+{
+  "name": "bdc",
+  "version": "1.0.0",
+  "description": "My lovely Nuxt.js project",
+  "author": "Vancouver BDC Team",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/nuxt",
+    "build": "./node_modules/.bin/nuxt build",
+    "start": "./node_modules/.bin/nuxt start",
+    "generate": "./node_modules/.bin/nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}

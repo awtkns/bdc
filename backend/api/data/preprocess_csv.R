@@ -6,7 +6,7 @@ library(RColorBrewer)
 
 setwd("/Users/helenakanya/UBC/BDC/bdc/backend/api/data/")
 
-csv_list <- list.files(path = "WHO_data", pattern = "\\.csv$", full.names = T)
+csv_list <- list.files(path = "raw", pattern = "\\.csv$", full.names = T)
 
 data <- read.csv(csv_list[1], header = T, sep = ",", skip = 1, check.names = F)
 data_c <- gather(data, "year" , "cancer_policy", -Country)
@@ -43,4 +43,15 @@ for (i in csv_list){
 }
 
 write.csv(mega_data, file = "combined_WHO.csv")
+
+map <- unique(subset(gapminder, select = c("country", "continent")))
+md1 <- merge(map, mega_data, by = c("country"), all = T)
+md1 <- replace(md1, md1 == "Not applicable", NA)
+write.csv(md1, file = "combined_WHO_continent.csv")
+
+##### plotting #####
+plt
+ggplot(data = plt, mapping = aes(x = Diameter, y = Mean_meas_lesion, group = Beta)) +
+  geom_line(aes(colour = as.factor(Beta))) + theme_cowplot() + theme(panel.border = element_rect(colour = "black", size=.5))
+
 

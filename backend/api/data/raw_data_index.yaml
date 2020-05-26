@@ -1,0 +1,54 @@
+abbreviations:
+  CHE: current health expenditure
+  GDP: gross domestic product
+  OOP: out of pocket
+  PPP: purchasing power parity
+
+
+# DATASETS OBTAINED FROM GAPMINDER AND WHO, WITH DESCRIPTIONS AND LINKS; CATEGORIZED BY TOPIC
+cancer_rates:
+  cancer_prevention:
+    title: Primary and secondary prevention of cancer response by country
+    url: https://apps.who.int/gho/data/view.main.24766
+  cancer_action_plan:
+    title: Policies, strategies and action plans data by country
+    url: https://apps.who.int/gho/data/view.main.2473
+  general_cancer_mortality:
+    title: Cancer, age-standardized death rates by country
+    url: https://apps.who.int/gho/data/view.main.A1110
+  # gapminder
+  breast_cancer:
+    incidence: breast_cancer_new_cases_per_100000_women
+    mortality: breast_cancer_deaths_per_100000_women
+  prostate_cancer:
+    incidence: prostate_cancer_new_cases_per_100000_men
+    mortality: prostate_cancer_deaths_per_100000_men
+
+development_indicator:
+  GDP_pc_usd_inflation_adjusted:
+    desc: Gross domestic product divided by midyear population, inflation adjusted; total market value of all finished goods and services
+  GNI_pc_constant_2010_us:
+    desc: Gross national incomes adjusted to 2010 USD value- total income received by the country from its residents and businesses regardless of whether they are located in the country or abroad
+
+economic_burden:
+  CHE_GDP:
+    title: Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%) (Health financing)
+    url: https://apps.who.int/gho/data/node.imr.GHED_CHEGDP_SHA2011?lang=en
+         https://www.who.int/data/gho/data/indicators/indicator-details/GHO/current-health-expenditure-(che)-as-percentage-of-gross-domestic-product-(gdp)-(-)
+    desc: Current health expenditure as a share of GDP provides an indication on the level of resources channelled to health relative to other uses. It shows the importance of the health sector in the whole economy and indicates the societal priority which health is given measured in monetary terms
+  OOP_pc_USD:
+    title: Out-of-pocket expenditure (OOP) per capita in USD (Health Financing)
+    url: https://apps.who.int/gho/data/node.main.GHEDOOPpcUSSHA2011?lang=en
+    desc: This indicator estimates the average health expenditure through out-of-pocket payments per capita in USD. It indicates how much every person payts out of pocket on average in USD at the point of use. High out of pocket payment are associated with catastrophic and impoverishing household spending. Out of pocket payment are not pooled and there is no sharing of risk among wider group of people other then the household. This indicator describes the OOP expenditure in relation to the population size in USD facilitating international comparison.
+  CHE_pc_USD:
+    title:  Current health expenditure (CHE) per capita in US$ data by country
+    url: https://apps.who.int/gho/data/node.main.GHEDOOPpcUSSHA2011?lang=en
+    
+
+extras:
+  CHE_pc_PPP:
+    title: Current health expenditure (CHE) per capita in PPP data by country
+    url: https://apps.who.int/gho/data/node.main.GHEDCHEpcPPPSHA2011?lang=en
+  OOP_pc_PPP:
+    title: Out-of-pocket expenditure (OOP) per capita in PPP (Health Financing)
+    url: https://apps.who.int/gho/data/view.main.GHEDOOPpcPPPSHA2011v

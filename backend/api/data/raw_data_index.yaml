@@ -16,6 +16,9 @@ cancer_rates:
   general_cancer_mortality:
     title: Cancer, age-standardized death rates by country
     url: https://apps.who.int/gho/data/view.main.A1110
+  lab: # from genetic testing registry 
+    title: genetic labs tests by country (recent, 2020)
+    url: https://ftp.ncbi.nlm.nih.gov/pub/GTR/data/labs_tests_by_country.txt
   # gapminder
   breast_cancer:
     incidence: breast_cancer_new_cases_per_100000_women
@@ -23,6 +26,9 @@ cancer_rates:
   prostate_cancer:
     incidence: prostate_cancer_new_cases_per_100000_men
     mortality: prostate_cancer_deaths_per_100000_men
+
+
+
 
 development_indicator:
   GDP_pc_usd_inflation_adjusted:

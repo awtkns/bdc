@@ -24,8 +24,19 @@ def get_dataset(slug):
     if col == None:
         return data, 200
 
-    # return just 1 column of the dataset
-    df = pd.DataFrame(data)
-    print(df.iloc[:,2])
+    # TODO: return the 1st and the 'col'th column of the dataset
+    df = pd.DataFrame([['Afghanistan', 0.2, 0.1], ['Albania', 5.36, 1.58], ['Algeria', 0, 0]], columns = ['Country', 'Computed Tomography', 'MRI'])
+    print(pd.DataFrame([df.iloc[:, 0], df.iloc[:, 2]], columns=['Country', 'MRI']))
+
+    labels = df.iloc[:, 0].to_string()
+    label = "MRI"
+    data = df.iloc[:, 2].to_string()
+
+
+
+    "{labels: %s,datasets: [{label: %s,data: %s}]}" % (labels, label, data)
+    # backgroundColor: ["red", "orange", "yellow"]
+
+    print("{labels: %s,datasets: [{label: %s,data: %s}]}" % (labels, label, data))
     return data, 200
 

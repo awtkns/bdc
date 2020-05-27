@@ -1,5 +1,7 @@
 from flask import Flask
+from flask import request
 from flask_cors import CORS
+import pandas as pd
 
 from .data import analysis
 
@@ -17,5 +19,13 @@ def get_available_dataset():
 
 @app.route('/<slug>')
 def get_dataset(slug):
-    return datasets[str(slug)], 200
+    col = request.headers.get('col')
+    data = datasets[str(slug)]
+    if col == None:
+        return data, 200
+
+    # return just 1 column of the dataset
+    df = pd.DataFrame(data)
+    print(df.iloc[:,2])
+    return data, 200
 

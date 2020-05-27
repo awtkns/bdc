@@ -43,6 +43,8 @@ class TableCombiner:
             d[index] = list(d[index].values())
 
         df = pd.DataFrame.from_dict(d, orient='index', columns=df.columns)
+        df2 = pd.read_csv('not_by_year.csv', index_col='country')
+        df = df.join(df2)
         df.to_csv('grouped_master.csv')
 
     def join(self, title, file_path):

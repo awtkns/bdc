@@ -6,9 +6,8 @@ from inflection import humanize
 
 
 def read_csv(fp):
-    df = pd.read_csv(fp)
-    df.index = df['country']
-    df.drop(columns=['country'], inplace=True)
+    print(fp)
+    df = pd.read_csv(fp, index_col='country')
     return df
 
 
@@ -38,11 +37,13 @@ def get_datasets():
     datasets = {}
     for (slug, f_name) in enumerate(os.listdir(web_dir)):
         fp = os.path.join(web_dir, f_name)
-        df = read_csv(fp)
 
-        datasets[str(slug)] = {
-            'title': humanize(f_name.strip('.csv')),
-            'table': df_to_datatable(df)
-        }
+        if fp.endswith('.csv'):
+            df = read_csv(fp)
+
+            datasets[str(slug)] = {
+                'title': humanize(f_name.strip('.csv')),
+                'table': df_to_datatable(df)
+            }
 
     return datasets

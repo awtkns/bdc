@@ -6,6 +6,7 @@ from inflection import humanize
 
 
 def read_csv(fp):
+    print(fp)
     df = pd.read_csv(fp, index_col='country')
     return df
 

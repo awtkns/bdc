@@ -26,6 +26,7 @@ class TableCombiner:
         d = {}
         for row in list(df.iterrows()):
             country = row[0][0]
+            year = row[0][1]
             sr = row[1]
 
             if country not in d.keys():
@@ -38,11 +39,14 @@ class TableCombiner:
                 for key, value in sr.iteritems():
                     if not d[country][key]:
                         d[country][key] = value
+                        d[country]['last_edit'] = (key, year)
 
         for index, row in d.items():
             d[index] = list(d[index].values())
 
-        df = pd.DataFrame.from_dict(d, orient='index', columns=df.columns)
+        cols = list(df.columns)
+        cols.append('last_edit')
+        df = pd.DataFrame.from_dict(d, orient='index', columns=cols)
         df2 = pd.read_csv('not_by_year.csv', index_col='country')
         df = df.join(df2)
         df.to_csv('grouped_master.csv')

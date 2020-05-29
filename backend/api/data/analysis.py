@@ -6,8 +6,8 @@ from inflection import humanize
 
 
 def read_csv(fp):
-    print(fp)
     df = pd.read_csv(fp, index_col='country')
+    print(fp)
     return df
 
 
@@ -50,5 +50,5 @@ def get_datasets():
                 'columns': df.columns.values.tolist(),
                 'indices': df.index.values.tolist()
             }
-
+            
     return dataframes, datasets

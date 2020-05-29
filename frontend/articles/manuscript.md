@@ -28,6 +28,8 @@ procedures.
 
 Keywords: Cancer, Early Dection, Public Health
 
+<chart slug="2" />
+
 ## 1. Introduction
 As the life expectancy of the world population
 increases, complex and chronic diseases such
@@ -152,3 +154,10 @@ this point
 
 ## 3. Results
 more formatting to do...
+
+<script>
+    import Chart from "../components/Chart";
+    export default {
+        components: {Chart}
+    }
+</script>

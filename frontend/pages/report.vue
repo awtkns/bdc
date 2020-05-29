@@ -6,24 +6,29 @@
       <div class="subtitle text-center">
         <span v-for="a in this.attributes.authors" v-html="a" />
       </div>
-      <component v-bind:is="body" class="text-left" />
+      <Manuscript class="text-left" />
     </v-col>
   </v-row>
 </template>
 
 <script>
+import Chart from "../components/Chart";
+import fm from '~/articles/manuscript.md'
+
 export default {
   name: 'Blog',
+  components: {
+    Chart,
+    Manuscript: {
+      extends: fm.vue.component,
+      components: { Chart }
+    }
+  },
   layout: 'homepage',
   data: () => ({
-    attributes: undefined,
+    attributes: fm.attributes,
     body: undefined
   }),
-  created() {
-    const fm = require(`~/articles/test.md`)
-    this.body = fm.vue.component
-    this.attributes = fm.attributes
-  }
 }
 </script>
 

@@ -28,38 +28,34 @@ def get_dataset(slug):
     return datasets[str(slug)], 200
     
 
-@app.route('/barChartData/<slug>')
-def get_barChart(slug):
+@app.route('/barChartData/<slug>', methods=['PUT'])
+def get_bar_chart(slug):
+    col = request.json['col']
+    countries = request.json['countries']
 
-    slug = 2  # TODO: !TEMPORARY! make it work with the other datasets lol
+    # TODO remove
+    for s in slugs:
+        if 'Med devices labs' in s['title']:
+            slug = s['slug']
+            break
 
-    col = request.headers.get('col')
     df = dataframes[str(slug)].loc[:, col]
-
-    # TODO: don't throw a fit if there's bad data in [countries] (ie, the user types something random)
-    countries = request.headers.get('countries')[1:-1].replace('"', "").split(',')
     df = df.loc[countries]
+    df = df.fillna(0)
+    data_dict = df.to_dict(orient='list')
 
-    labels = df.index.values.tolist()
-    label = df.name
-    
-    data = df.values.tolist()
-
-    # TODO: pre-process this for efficiency
-    for i in range(len(data)):
-        if np.isnan(data[i]):
-            data[i] = 0 
-
-    chartData = {
-        'labels': labels,
-        'datasets': [
-            {
+    datasets = []
+    for label, values in data_dict.items():
+        datasets.append({
                 'label': label,
-                'data': data,
-                'backgroundColor': colours[:len(data)]
-            }
-        ]
+                'data': values,
+                'backgroundColor': colours[:len(values)]
+            })
+
+    chart_data = {
+        'labels': list(df.index),
+        'datasets': datasets
     }
 
-    return chartData, 200
+    return chart_data, 200
 

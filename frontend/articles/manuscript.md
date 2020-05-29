@@ -28,7 +28,7 @@ procedures.
 
 Keywords: Cancer, Early Dection, Public Health
 
-<chart slug="2" />
+<chart slug="4" />
 
 ## 1. Introduction
 As the life expectancy of the world population

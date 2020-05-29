@@ -1,0 +1,583 @@
+"country","year","Existence of national screening program for breast cancer","Existence of national screening program for cervical cancer","Most widely used screening method in national cervical cancer screening program","Type of national cervical cancer screening program","Coverage of national cervical cancer screening program (%)","Existence of national HPV vaccination programme","Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)","Current health expenditure (CHE) per capita in PPP int$","Current health expenditure (CHE) per capita in US$","Out-of-pocket expenditure (OOP) per capita in PPP int$","Out-of-pocket expenditure (OOP) per capita in US$","continent","Breast cancer deaths per 100000 women","Breast cancer new cases per 100000 women","Gdp pc usd inflation adjusted","Gni pc constant 2010 u","Prostate cancer deaths per 100000 men","Prostate cancer new cases per 100000 men"
+"Afghanistan","2015","No","No","","","","No",10.1,183.9,60.1,144.2,47.1,"Asia",35.5,34.4,574,NA,14.4,11.5
+"Afghanistan","2017","No","No","","","","No",11.8,NA,67.1,NA,50.7,"Asia",NA,NA,572,NA,NA,NA
+"Afghanistan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Albania","2015","Yes","No","","","","No",NA,NA,NA,0,0,"Europe",12.2,28.6,4520,4580,21,35.7
+"Albania","2017","Yes","Yes","HPV test","Opportunistic screening","10 to 50","No",NA,NA,NA,0,0,"Europe",NA,NA,4870,4880,NA,NA
+"Albania","2019","Yes","Yes","HPV test","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Algeria","2015","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",7,1022.9,290.5,288.5,81.9,"Africa",14.4,30.2,4780,4610,7.58,11.4
+"Algeria","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",6.4,974.8,258.5,317.3,84.1,"Africa",NA,NA,4790,4700,NA,NA
+"Algeria","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Andorra","2015","Yes","No","","","","Yes",10.3,5093.2,3695.1,2157.3,1565.1,"",19.4,99.9,41800,NA,26.5,136
+"Andorra","2017","Yes","No","","","","Yes",10.3,5237.2,4040.8,2188,1688.1,"",NA,NA,43900,NA,NA,NA
+"Andorra","2019","Yes","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Angola","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",2.6,185.1,108.7,62,36.4,"Africa",19.8,21.9,3750,3590,30.1,26.6
+"Angola","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",2.8,185.9,114.5,63.4,39.1,"Africa",NA,NA,3410,3320,NA,NA
+"Angola","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Antigua and Barbuda","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",4.7,1007.5,639.6,261.8,166.2,"",22.5,63.4,13300,NA,77.3,192
+"Antigua and Barbuda","2017","No","No","","","","No",4.5,1070.8,673.9,374.6,235.7,"",NA,NA,14200,NA,NA,NA
+"Antigua and Barbuda","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Argentina","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",8.8,1794.3,1305.4,247.4,180,"Americas",24,65,10600,10400,26.9,65.1
+"Argentina","2017","Yes","Yes","HPV test","Organized population-based screening","","Yes",9.1,1916.5,1324.6,287.8,198.9,"Americas",NA,NA,10400,10100,NA,NA
+"Argentina","2019","Yes","Yes","HPV test","Organized population-based screening","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Armenia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",10.1,885.6,366,722.9,298.8,"",23.4,62.2,3920,4050,17.1,32.9
+"Armenia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",10.4,1001.1,407.6,844.4,343.8,"",NA,NA,4200,4320,NA,NA
+"Armenia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Australia","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",9.3,4413.7,4887.8,836.2,926.1,"Oceania",17.6,94.2,55100,54000,23.6,173
+"Australia","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",9.2,4816.2,5331.8,874.2,967.8,"Oceania",NA,NA,56100,54600,NA,NA
+"Australia","2019","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Oceania",NA,NA,NA,NA,NA,NA
+"Austria","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",10.4,5206,4611,993.9,880.3,"Europe",19,79.4,47800,47300,20.5,123
+"Austria","2017","Yes","Yes","PAP smear","Opportunistic screening","","Yes",10.4,5617.4,4939.9,1078.7,948.6,"Europe",NA,NA,49100,48700,NA,NA
+"Austria","2019","Yes","Yes","PAP smear","Opportunistic screening","","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Azerbaijan","2015","No","No","","","","No",6.7,1201.3,370.5,954.4,294.4,"",12,37.4,6060,NA,10.2,22.2
+"Azerbaijan","2017","No","No","","","","No",6.7,1163.9,275.8,976,231.3,"",NA,NA,5740,NA,NA,NA
+"Azerbaijan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Bahamas","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",5.7,1733.6,1741.9,465.7,467.9,"",36.8,109,27500,26500,74.9,181
+"Bahamas","2017","No","No","","","","Yes",5.8,1756.1,1771.5,544.1,548.9,"",NA,NA,27100,26300,NA,NA
+"Bahamas","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Bahrain","2015","Yes","Yes","PAP smear","Organized population-based screening","","No",5,2333.9,1128.8,603.1,291.7,"Asia",21.8,57.6,22400,21300,14.3,26.7
+"Bahrain","2017","Yes","Yes","PAP smear","Organized population-based screening","","No",4.7,2265.3,1127.2,692.1,344.4,"Asia",NA,NA,22100,21000,NA,NA
+"Bahrain","2019","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Bangladesh","2015","No","Yes","","Opportunistic screening","","Yes",2.5,88.3,31.8,63.4,22.9,"Asia",8.54,14.4,1000,1070,5.16,7.14
+"Bangladesh","2017","Yes","Yes","Visual inspection","Opportunistic screening","","Yes",2.3,94.3,36.3,69.7,26.8,"Asia",NA,NA,1130,1180,NA,NA
+"Bangladesh","2019","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Barbados","2015","No","No","","","","Yes",7,1262.5,1158.4,571,523.9,"",30.8,96.2,15800,NA,74.5,200
+"Barbados","2017","No","No","","","","Yes",6.8,1343.2,1183.8,622,548.2,"",NA,NA,16100,NA,NA,NA
+"Barbados","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Belarus","2015","No","No","","","","No",6.1,1115.9,361,404,130.7,"",14.4,42.9,6550,6250,19.4,59
+"Belarus","2017","Yes","Yes","Visual inspection","Organized population-based screening","more than 50 but less than 70","No",5.9,1129.1,342.5,310.7,94.2,"",NA,NA,6540,6280,NA,NA
+"Belarus","2019","Yes","Yes","Visual inspection","Organized population-based screening","more than 50 but less than 70","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Belgium","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",10.3,4702.4,4171.1,824.8,731.6,"Europe",24.4,116,45500,46100,22.4,117
+"Belgium","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",10.3,5119.1,4507.4,902.9,795,"Europe",NA,NA,46700,47200,NA,NA
+"Belgium","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Belize","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",5.9,505.2,289.6,116.9,67,"",15,25.8,4340,4070,53.7,70.4
+"Belize","2017","No","No","","","","Yes",5.6,481,280.5,116.2,67.8,"",NA,NA,4200,3820,NA,NA
+"Belize","2019","No","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Benin","2015","No","No","","","","No",4,84.7,31.3,34.3,12.7,"Africa",16.3,15.6,829,822,32.6,24.1
+"Benin","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",3.7,84.7,30.8,38.1,13.8,"Africa",NA,NA,863,857,NA,NA
+"Benin","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Bhutan","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",3.7,288.2,91.1,57,18,"",10.4,16.3,2780,2590,6.92,7.94
+"Bhutan","2017","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",3.2,290.4,96.8,38.6,12.9,"",NA,NA,3070,2810,NA,NA
+"Bhutan","2019","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Bolivia (Plurinational State of)","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",6.6,456.9,201.6,124.9,55.1,"",NA,NA,NA,NA,NA,NA
+"Bolivia (Plurinational State of)","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6.4,491.7,220.3,123.3,55.2,"",NA,NA,NA,NA,NA,NA
+"Bolivia (Plurinational State of)","2019","Don't know","","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Bosnia and Herzegovina","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",9.3,1088.1,428.2,313.8,123.5,"Europe",19.2,42.1,5360,5390,19.5,33.5
+"Bosnia and Herzegovina","2017","Yes","Yes","PAP smear","Organized population-based screening","","No",8.9,1172.4,460.5,341.6,134.2,"Europe",NA,NA,5770,5750,NA,NA
+"Bosnia and Herzegovina","2019","Yes","Yes","PAP smear","Organized population-based screening","","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Botswana","2015","No data received","","","","","",5.7,920.2,373.8,32.9,13.4,"Africa",17.6,36.1,7610,7490,39.3,62.6
+"Botswana","2017","No","Yes","PAP smear","Organized population-based screening","","Yes",6.1,1044.3,465.9,31.3,13.9,"Africa",NA,NA,7860,7580,NA,NA
+"Botswana","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Brazil","2015","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",8.9,1392.6,776.2,396.1,220.8,"Americas",15.8,42.4,11400,11200,29.9,64.2
+"Brazil","2017","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",9.5,1472.2,928.8,404.2,255,"Americas",NA,NA,11000,10800,NA,NA
+"Brazil","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Brunei Darussalam","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",2.4,1901.8,739.2,94.6,36.8,"",NA,NA,NA,NA,NA,NA
+"Brunei Darussalam","2017","No","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",2.4,1875,671.4,97.1,34.8,"",NA,NA,NA,NA,NA,NA
+"Brunei Darussalam","2019","No","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Bulgaria","2015","No","No","","","","Yes",8.2,1486.8,572,708.7,272.7,"Europe",18.8,67.1,7610,7460,17.8,39.9
+"Bulgaria","2017","No","No","","","","Yes",8.1,1689.7,663.7,786.6,309,"Europe",NA,NA,8330,8440,NA,NA
+"Bulgaria","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Burkina Faso","2015","No","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",5.8,99.3,33.5,35.8,12.1,"Africa",15.3,12.9,645,623,30.9,22.7
+"Burkina Faso","2017","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",6.9,129.1,44.4,40.9,14.1,"Africa",NA,NA,686,662,NA,NA
+"Burkina Faso","2019","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Burundi","2015","No","No","","","","No",6.6,48.5,19.4,14.9,6,"Africa",16.6,17.7,228,228,44.3,37.5
+"Burundi","2017","No","Yes","Visual inspection","Opportunistic screening","","Yes",7.5,59.2,23.5,15.1,6,"Africa",NA,NA,214,214,NA,NA
+"Burundi","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Cabo Verde","2015","No data received","","","","","",4.8,304.4,144.4,84.5,40.1,"",NA,NA,NA,NA,NA,NA
+"Cabo Verde","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",5.2,357.1,167.6,103.2,48.4,"",NA,NA,NA,NA,NA,NA
+"Cabo Verde","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Cambodia","2015","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","No",6.2,217.7,72.1,124.8,41.3,"Asia",20.6,25.7,1020,960,17.6,16.3
+"Cambodia","2017","No","No","","","","Yes",5.9,238.2,82.1,143.9,49.6,"Asia",NA,NA,1140,1060,NA,NA
+"Cambodia","2019","No","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Cameroon","2015","No","Yes","","","","No",4.7,165.1,63.6,115.1,44.4,"Africa",20,21.3,1440,1420,35.3,26.9
+"Cameroon","2017","No","No","","","","Yes",4.7,173.9,67.8,123.4,48.1,"Africa",NA,NA,1480,1450,NA,NA
+"Cameroon","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Canada","2015","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",10.5,4652.2,4539.1,630.6,615.2,"Americas",20,92.6,50300,49600,22,106
+"Canada","2017","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",10.6,4928.6,4754.9,700.8,676.1,"Americas",NA,NA,51200,50700,NA,NA
+"Canada","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Central African Republic","2015","No","Yes","PAP smear","Opportunistic screening","Less than 10","No",6.3,41.9,22,12.6,6.6,"Africa",21.9,26.8,346,350,29.7,28.2
+"Central African Republic","2017","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",5.8,42,24.2,13.1,7.5,"Africa",NA,NA,371,386,NA,NA
+"Central African Republic","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Chad","2015","Yes","Yes","","Opportunistic screening","Less than 10","No",4.5,99.9,35.3,56.7,20.1,"Africa",14,14.1,956,931,29.7,23.2
+"Chad","2017","No","No","","","","No",4.5,87.3,29.7,50.7,17.3,"Africa",NA,NA,817,809,NA,NA
+"Chad","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Chile","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",8.3,1905.6,1140.1,657.6,393.5,"Americas",12.7,40.1,14700,14300,29.4,75.9
+"Chile","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",9,2228.6,1382,747.3,463.4,"Americas",NA,NA,14700,14200,NA,NA
+"Chile","2019","Yes","Yes","PAP smear","Organized population-based screening","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"China","2015","Yes","Yes","PAP smear","Organized population-based screening","","No",4.9,705.6,392.8,247.6,137.8,"Asia",8.37,32,6480,6460,6.14,15.3
+"China","2017","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",5.2,841.1,440.8,303.2,158.9,"Asia",NA,NA,7310,7300,NA,NA
+"China","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Colombia","2015","Yes","Yes","HPV test","Organized population-based screening","10 to 50","Yes",7.3,1007.1,444.1,161.7,71.3,"Americas",12.9,35.1,7570,7470,24,59
+"Colombia","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",7.2,1039.2,459.2,169.5,74.9,"Americas",NA,NA,7610,7480,NA,NA
+"Colombia","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Comoros","2015","No response","","","","","No",7.8,121.9,58.2,91.8,43.8,"Africa",19.1,20.5,1350,1360,46.6,42.2
+"Comoros","2017","Don't know","","","","","No",7.4,123.2,58.8,91.9,43.9,"Africa",NA,NA,1390,1390,NA,NA
+"Comoros","2019","Don't know","","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Congo","2015","No","No","","","","No",3.4,202.1,58.4,65.6,19,"",NA,NA,NA,NA,NA,NA
+"Congo","2017","Yes","Yes","","Organized population-based screening","","Yes",2.9,164.8,50,79.8,24.2,"",NA,NA,NA,NA,NA,NA
+"Congo","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Cook Islands","2015","No data received","","","","","",2.9,524.8,467.2,40.2,35.8,"",NA,NA,NA,NA,NA,NA
+"Cook Islands","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",3.3,691.9,588.7,46,39.2,"",NA,NA,NA,NA,NA,NA
+"Cook Islands","2019","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Costa Rica","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",7.8,1231.4,891.3,278.3,201.4,"Americas",15,41.6,9220,8800,26.6,66.1
+"Costa Rica","2017","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","No",7.3,1262.2,869.1,268.3,184.7,"Americas",NA,NA,9730,9220,NA,NA
+"Costa Rica","2019","Yes","Yes","PAP smear","Organized population-based screening","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Côte d'Ivoire","2015","No data received","","","","","",4.4,153.1,63.4,65.6,27.2,"",NA,NA,NA,NA,NA,NA
+"Côte d'Ivoire","2017","Yes","Yes","","Opportunistic screening","Less than 10","No",4.5,175.7,69.7,69.1,27.5,"",NA,NA,NA,NA,NA,NA
+"Côte d'Ivoire","2019","No","Yes","Visual inspection","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Croatia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6.8,1553.8,795.5,170,87.1,"Europe",23,75.9,14100,14000,26.4,73.8
+"Croatia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6.8,1772.5,902.1,194.5,99,"Europe",NA,NA,15400,15100,NA,NA
+"Croatia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Cuba","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",12.8,3142.4,975,302.4,93.8,"Americas",18.1,50.2,6520,6440,40.3,100
+"Cuba","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",11.7,2485.8,987.6,260.6,103.5,"Americas",NA,NA,6670,NA,NA,NA
+"Cuba","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Cyprus","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",6.8,2151.8,1582.1,953.9,701.3,"",21.8,99.1,27900,27700,23.1,110
+"Cyprus","2017","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",6.7,2430.2,1731.7,1084.6,772.9,"",NA,NA,30700,29700,NA,NA
+"Cyprus","2019","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Czechia","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",7.2,2442,1284,362.1,190.4,"",NA,NA,NA,NA,NA,NA
+"Czechia","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",7.2,2753.4,1475.9,407.8,218.6,"",NA,NA,NA,NA,NA,NA
+"Czechia","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Democratic People's Republic of Korea","2015","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Democratic People's Republic of Korea","2017","Yes","Yes","Visual inspection","Organized population-based screening","","",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Democratic People's Republic of Korea","2019","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Democratic Republic of the Congo","2015","No data received","","","","","",3.9,34.7,19.9,12.9,7.4,"",NA,NA,NA,NA,NA,NA
+"Democratic Republic of the Congo","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",4,37.3,19.4,15,7.8,"",NA,NA,NA,NA,NA,NA
+"Democratic Republic of the Congo","2019","No response","","","","","",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Denmark","2015","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",10.2,5038.4,5469.3,689,747.9,"Europe",25.6,99.9,60400,62300,31.5,113
+"Denmark","2017","Yes","Yes","HPV test","Organized population-based screening","10 to 50","Yes",10.1,5510,5800.2,757,796.9,"Europe",NA,NA,62700,64100,NA,NA
+"Denmark","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Djibouti","2015","No data received","","","","","",4.4,146.7,81.7,29.9,16.7,"Africa",15.2,16.7,NA,NA,45.1,39.7
+"Djibouti","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",3.3,117.2,70.3,31.1,18.6,"Africa",NA,NA,NA,NA,NA,NA
+"Djibouti","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Dominica","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",5.4,568.4,395.9,174.8,121.7,"",27.8,65.8,6890,NA,127,248
+"Dominica","2017","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",5.9,656.7,439.6,203.3,136.1,"",NA,NA,6560,NA,NA,NA
+"Dominica","2019","No","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Dominican Republic","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",6,855.9,391,366.8,167.5,"Americas",12.6,28,6660,6380,48.8,83.9
+"Dominican Republic","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",6.1,985.7,433.2,441,193.8,"Americas",NA,NA,7270,6930,NA,NA
+"Dominican Republic","2019","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Ecuador","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.6,985.9,528.2,432.5,231.7,"Americas",9.57,21.7,5330,5240,24.3,46.6
+"Ecuador","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",8.3,958.9,518,377.8,204.1,"Americas",NA,NA,5210,5090,NA,NA
+"Ecuador","2019","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Egypt","2015","Yes","No","","","","No",5.3,575.4,180.8,342.1,107.5,"Africa",9.61,23.6,2700,2660,8.08,12.7
+"Egypt","2017","Yes","No","","","","No",5.3,613.8,105.8,368.8,63.5,"Africa",NA,NA,2820,2760,NA,NA
+"Egypt","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"El Salvador","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",7.6,578.7,283.3,161.1,78.9,"Americas",11,24.6,3310,3160,19.5,35.9
+"El Salvador","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",7.2,582.7,282.5,170.1,82.5,"Americas",NA,NA,3440,3250,NA,NA
+"El Salvador","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Equatorial Guinea","2015","No data received","","","","","",2.9,857.7,326.9,661.7,252.2,"Africa",18.9,36.3,14100,11000,30.5,40.8
+"Equatorial Guinea","2017","No","Yes","PAP smear","","","No",3.1,758.9,301.2,582.8,231.3,"Africa",NA,NA,11300,9100,NA,NA
+"Equatorial Guinea","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Eritrea","2015","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",2.9,48.9,26.3,28.6,15.3,"Africa",22.1,22,NA,NA,48.5,40.9
+"Eritrea","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",2.9,59.3,32.9,35,19.5,"Africa",NA,NA,NA,NA,NA,NA
+"Eritrea","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Estonia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",6.4,1866.4,1112.5,425.2,253.5,"",16.4,55.7,17600,17000,29.5,115
+"Estonia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6.4,2153.3,1300.5,509.6,307.8,"",NA,NA,19100,18500,NA,NA
+"Estonia","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Eswatini","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",7.1,590.5,217.2,62.4,23,"",NA,NA,NA,NA,NA,NA
+"Eswatini","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",6.9,600.1,224.7,63,23.6,"",NA,NA,NA,NA,NA,NA
+"Eswatini","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Ethiopia","2015","No","Yes","Visual inspection","Opportunistic screening","Less than 10","No",3.9,64.6,24.9,23,8.9,"Africa",16.7,15.6,483,NA,44.8,37.1
+"Ethiopia","2017","No","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",3.5,66.7,25.3,22.9,8.7,"Africa",NA,NA,548,NA,NA,NA
+"Ethiopia","2019","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Fiji","2015","No","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",3.6,323.1,174.5,67.9,36.7,"",35.6,87.6,4360,NA,20.9,45.1
+"Fiji","2017","No","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",3.5,322.8,188.4,50.3,29.4,"",NA,NA,4660,NA,NA,NA
+"Fiji","2019","No","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Finland","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.7,4095.4,4121.9,810,815.2,"Europe",16.9,92.2,45700,46100,22.6,138
+"Finland","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.2,4255.2,4205.7,860.7,850.7,"Europe",NA,NA,48000,48000,NA,NA
+"Finland","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"France","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",11.5,4688.6,4204.1,455.1,408.1,"Europe",21.2,92.2,41800,42700,22.8,105
+"France","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",11.3,5011.2,4379.7,470.3,411,"Europe",NA,NA,43000,44000,NA,NA
+"France","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Gabon","2015","No data received","","","","","",2.7,477.8,197.9,123.8,51.3,"Africa",25.3,36.1,9510,8990,33.1,36.7
+"Gabon","2017","Yes","Yes","PAP smear","Organized population-based screening","","No",2.8,499.6,204.5,125.7,51.4,"Africa",NA,NA,9200,8920,NA,NA
+"Gabon","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Gambia","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",3.1,51.7,21.9,12.1,5.1,"Africa",11.5,11.5,755,735,11.6,9.16
+"Gambia","2017","No response","","","","","",3.3,55.8,23.3,12.3,5.1,"Africa",NA,NA,760,744,NA,NA
+"Gambia","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Georgia","2015","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",7.9,719.2,280.9,412.3,161,"",19.2,48.6,4180,4070,13.1,25.5
+"Georgia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",7.6,773.3,293.1,423.5,160.5,"",NA,NA,4510,4270,NA,NA
+"Georgia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Germany","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",11.1,5352,4617.5,695,599.6,"Europe",21.3,97.6,45300,46400,21.3,127
+"Germany","2017","Yes","Yes","HPV test","Opportunistic screening","","Yes",11.2,5922.6,5033.5,750.6,637.9,"Europe",NA,NA,46900,48100,NA,NA
+"Germany","2019","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Ghana","2015","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",4.6,188.7,82.4,67.6,29.5,"Africa",14.2,16.3,1620,1600,29.4,24.7
+"Ghana","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",3.3,146.9,66.7,59.2,26.9,"Africa",NA,NA,1740,1690,NA,NA
+"Ghana","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Greece","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",8.1,2168.9,1464.7,790.1,533.6,"Europe",19.7,77.7,22600,22600,18.3,73.3
+"Greece","2017","Yes","Yes","PAP smear","Opportunistic screening","","Yes",8,2295.3,1516.6,797.6,527,"Europe",NA,NA,23100,23100,NA,NA
+"Greece","2019","Yes","Yes","PAP smear","Opportunistic screening","","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Grenada","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",4.7,642.8,440.3,337.2,231,"",31.1,66.2,8190,NA,96.6,174
+"Grenada","2017","No","No","","","","No",4.8,721.1,497.2,377.9,260.6,"",NA,NA,8780,NA,NA,NA
+"Grenada","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Guatemala","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",6,464.2,233.9,255.4,128.7,"Americas",9,16.2,3070,3000,23.9,33.7
+"Guatemala","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",5.8,474.8,259.9,257.1,140.7,"Americas",NA,NA,3120,3060,NA,NA
+"Guatemala","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Guinea","2015","Yes","Yes","","Organized population-based screening","Less than 10","No",5.8,109.1,42.3,53.8,20.9,"Africa",15.3,14.9,750,738,21.4,16.1
+"Guinea","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",4.1,89.2,33.7,50.5,19.1,"Africa",NA,NA,869,865,NA,NA
+"Guinea","2019","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Guinea-Bissau","2015","No data received","","","","","",8.6,132.7,50.8,92.4,35.4,"Africa",22.2,20.5,574,590,34.8,25.2
+"Guinea-Bissau","2017","No","No","","","","No",7.2,123.3,52.4,88.8,37.7,"Africa",NA,NA,614,616,NA,NA
+"Guinea-Bissau","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Guyana","2015","No","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",4.5,341.5,188,135.7,74.7,"",21.8,39.5,3690,3720,61.9,91.5
+"Guyana","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",4.9,405.1,230.5,131.5,74.9,"",NA,NA,3850,3760,NA,NA
+"Guyana","2019","No","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Haiti","2015","No","No","","","","No",8.6,152.2,67.3,51.7,22.9,"Americas",31.5,38.6,729,732,63.9,63.6
+"Haiti","2017","Yes","Yes","PAP smear","Opportunistic screening","","No",8,146.1,62.4,58.8,25.1,"Americas",NA,NA,729,734,NA,NA
+"Haiti","2019","Yes","Yes","HPV test","Opportunistic screening","","",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Honduras","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",7.7,355.9,180.6,174.9,88.8,"Americas",10.9,16.4,2070,1930,21.9,32.5
+"Honduras","2017","No","No","","","","Yes",7.9,394.8,195.9,192.3,95.4,"Americas",NA,NA,2180,2020,NA,NA
+"Honduras","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Hungary","2015","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","Yes",7,1835,870.5,504.4,239.3,"Europe",22.3,69.9,14700,14100,21.7,57.1
+"Hungary","2017","Yes","Yes","HPV test","Organized population-based screening","10 to 50","Yes",6.9,1979.4,981.4,532.3,263.9,"Europe",NA,NA,15800,15200,NA,NA
+"Hungary","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Iceland","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.2,3979.4,4281.6,701.8,755.1,"Europe",18.8,116,47400,NA,27.2,145
+"Iceland","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.3,4721.4,6086.3,778.1,1003,"Europe",NA,NA,51300,NA,NA,NA
+"Iceland","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"India","2015","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",3.6,220.7,59,142.7,38.1,"Asia",12.1,21.1,1750,1730,6.67,8.85
+"India","2017","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","No",3.5,253.3,69.3,158.1,43.2,"Asia",NA,NA,1990,1970,NA,NA
+"India","2019","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Indonesia","2015","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","No",3,333.5,100.4,137,41.3,"Asia",14.7,34,3820,3700,13.9,23.7
+"Indonesia","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",3,367.9,115,127.3,39.8,"Asia",NA,NA,4120,3990,NA,NA
+"Indonesia","2019","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Iran (Islamic Republic of)","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",7.8,1333.5,375.1,545.8,153.5,"",NA,NA,NA,NA,NA,NA
+"Iran (Islamic Republic of)","2017","Yes","Yes","HPV test","Organized population-based screening","Less than 10","No",8.7,1748.4,475.5,730.1,198.5,"",NA,NA,NA,NA,NA,NA
+"Iran (Islamic Republic of)","2019","Yes","Yes","HPV test","Organized population-based screening","Less than 10","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Iraq","2015","Yes","No","","","","No",3.1,494.8,154.5,378.3,118.1,"Asia",26.4,35.7,5300,NA,9.06,10.1
+"Iraq","2017","Yes","Yes","Visual inspection","Opportunistic screening","","No",4.2,NA,210.3,NA,122.1,"Asia",NA,NA,5640,NA,NA,NA
+"Iraq","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Ireland","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",7.3,5085,4565.1,673.5,604.6,"Europe",22.2,101,65400,49600,25.4,120
+"Ireland","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",7.2,5544.7,4976.9,680.9,611.2,"Europe",NA,NA,71800,56800,NA,NA
+"Ireland","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Israel","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",7.1,2615.2,2640.3,588.3,593.9,"Asia",23,75.5,33100,32800,13.7,47.7
+"Israel","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",7.4,3014.6,3144.6,670.8,699.7,"Asia",NA,NA,34200,33900,NA,NA
+"Israel","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Italy","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",9,3307.3,2708.8,765.3,626.8,"Europe",19.6,101,34000,33700,16.7,108
+"Italy","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.8,3619.7,2840.1,850.1,667,"Europe",NA,NA,35100,35300,NA,NA
+"Italy","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Jamaica","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",5.7,489.2,279.3,92.3,52.7,"Americas",28.1,63.4,4720,4580,62,112
+"Jamaica","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",6,542.9,307.2,93.5,52.9,"Americas",NA,NA,4790,4640,NA,NA
+"Jamaica","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Japan","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",10.9,4368.7,3733.7,565.6,483.4,"Asia",9.51,59.5,47100,48900,8.8,53.8
+"Japan","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",10.9,4563.5,4169,586.3,535.6,"Asia",NA,NA,48400,50200,NA,NA
+"Japan","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Jordan","2015","Yes","No","","","","No",7.6,695.9,314.3,204.4,92.3,"Asia",21.5,49,3310,3270,11.8,20.6
+"Jordan","2017","Yes","No","","","","No",8.1,756.7,340.7,230.2,103.7,"Asia",NA,NA,3260,3250,NA,NA
+"Jordan","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Kazakhstan","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",3,756.3,316.4,242.3,101.4,"",14.7,41,10600,10200,10.1,22.3
+"Kazakhstan","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",3.1,820.4,279.6,271.9,92.7,"",NA,NA,10900,9680,NA,NA
+"Kazakhstan","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Kenya","2015","No","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",5.2,158.1,70.7,42.5,19,"Africa",8.46,14.4,1090,1080,13.1,16.7
+"Kenya","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",4.8,158.2,76.6,38,18.4,"Africa",NA,NA,1160,1150,NA,NA
+"Kenya","2019","Yes","Yes","HPV test","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Kiribati","2015","No response","","","","","Yes",8,166.5,121.7,0.2,0.2,"",25.1,21.9,1710,NA,14.3,11.2
+"Kiribati","2017","No","No","","","","No",10.8,234.9,171.4,0.3,0.2,"",NA,NA,1750,NA,NA,NA
+"Kiribati","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Kuwait","2015","Yes","No","","","","No",4,2936,1168.8,422.2,168.1,"Asia",20.1,62.5,36000,39500,8.32,24.9
+"Kuwait","2017","Yes","No","","","","No",5.3,3796.7,1529.1,479,192.9,"Asia",NA,NA,33400,37700,NA,NA
+"Kuwait","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Kyrgyzstan","2015","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","No",7.1,251.1,81.4,136.9,44.4,"",NA,NA,NA,NA,NA,NA
+"Kyrgyzstan","2017","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",6.2,241.2,78.8,136,44.4,"",NA,NA,NA,NA,NA,NA
+"Kyrgyzstan","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Lao People's Democratic Republic","2015","No","No","","","","Yes",2.5,150.8,53,68.4,24,"",NA,NA,NA,NA,NA,NA
+"Lao People's Democratic Republic","2017","No","No","","","","No",2.5,177.9,62.1,82.2,28.7,"",NA,NA,NA,NA,NA,NA
+"Lao People's Democratic Republic","2019","Yes","Yes","PAP smear","Opportunistic screening","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Latvia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",5.7,1405.8,775.6,569.9,314.4,"",18.1,53.6,14300,14300,30.1,82.7
+"Latvia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6,1682.3,930.4,706.4,390.6,"",NA,NA,15400,15400,NA,NA
+"Latvia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Lebanon","2015","Yes","No","","","","No",7.7,1090,655.8,361.6,217.6,"Asia",24.5,93.7,6400,6330,24.3,72.1
+"Lebanon","2017","Yes","No","","","","No",8.2,1185.3,719.4,393.8,239,"Asia",NA,NA,6270,6270,NA,NA
+"Lebanon","2019","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Lesotho","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",8.4,246.4,98.1,40,15.9,"Africa",22.5,34.4,1420,1590,38.3,46.9
+"Lesotho","2017","No","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",8.8,265.5,104.6,44.2,17.4,"Africa",NA,NA,1410,1580,NA,NA
+"Lesotho","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Liberia","2015","No data received","","","","","",10.3,133.4,72.3,62.7,34,"Africa",19.1,19.2,571,521,31.2,24
+"Liberia","2017","No","No","","","","Yes",8.2,104.7,56.6,47.6,25.8,"Africa",NA,NA,548,497,NA,NA
+"Liberia","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Libya","2015","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",13.2,40.2,5900,NA,16.5,35.1
+"Libya","2017","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,7090,NA,NA,NA
+"Libya","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Lithuania","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",6.5,1861.5,920.2,592.7,293,"",17.8,56,15300,14800,28.5,163
+"Lithuania","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",6.5,2132.6,1078.2,688.3,348,"",NA,NA,16900,16200,NA,NA
+"Lithuania","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Luxembourg","2015","No data received","","","","","",5.5,5697.8,5567.4,604.9,591,"",21.9,118,108000,69300,18.9,109
+"Luxembourg","2017","Yes","No","","","","Yes",5.5,5956.5,5782.6,636.7,618.1,"",NA,NA,109000,69600,NA,NA
+"Luxembourg","2019","Yes","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Madagascar","2015","No","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",5.7,83.8,22.9,20.4,5.6,"Africa",15.2,18.4,470,453,38.5,39.3
+"Madagascar","2017","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",5.5,85.5,24.7,21.1,6.1,"Africa",NA,NA,481,468,NA,NA
+"Madagascar","2019","No","Yes","Visual inspection","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Malawi","2015","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","Yes",9.3,109,34,12,3.7,"Africa",13.9,15.5,508,493,27,22.2
+"Malawi","2017","No","Yes","HPV test","Opportunistic screening","10 to 50","Yes",9.6,114.8,32.3,12.2,3.4,"Africa",NA,NA,513,510,NA,NA
+"Malawi","2019","No","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Malaysia","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",3.9,1040.6,376.1,369.2,133.4,"Asia",17.5,51.2,10900,10600,9.33,22.2
+"Malaysia","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",3.9,1139,384.1,432.2,145.7,"Asia",NA,NA,11700,11400,NA,NA
+"Malaysia","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Maldives","2015","No","Yes","","","","No",8.7,1279.9,853.5,250,166.7,"",10.5,22.6,7500,NA,6.78,12
+"Maldives","2017","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",9,1506.9,1006.9,311.1,207.9,"",NA,NA,7810,NA,NA,NA
+"Maldives","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Mali","2015","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",4.1,84.3,30.8,28.8,10.5,"Africa",17.3,17.8,727,706,15.3,11.8
+"Mali","2017","Yes","Yes","HPV test","Organized population-based screening","","No",3.8,84.2,31.4,29.6,11,"Africa",NA,NA,764,729,NA,NA
+"Mali","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Malta","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",9.2,3383.8,2249.9,1255.6,834.9,"",20.8,83.9,25800,24400,14.1,86.5
+"Malta","2017","Yes","Yes","PAP smear","Opportunistic screening","","Yes",9.3,3943.1,2585.6,1370.4,898.6,"",NA,NA,27700,25400,NA,NA
+"Malta","2019","Yes","Yes","PAP smear","Organized population-based screening","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Marshall Islands","2015","Yes","Yes","","Organized population-based screening","","Yes",17.6,693.6,600.8,85.8,74.3,"",20.6,39.1,2860,3880,19.1,26
+"Marshall Islands","2017","No","No","","","","Yes",16.4,709.7,642.2,88.1,79.7,"",NA,NA,2980,3940,NA,NA
+"Marshall Islands","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Mauritania","2015","No","No","","","","No",4.7,181.9,54.7,86.1,25.9,"Africa",19.2,20.7,1340,1290,30.8,26.2
+"Mauritania","2017","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",4.4,170.1,48.8,84.3,24.2,"Africa",NA,NA,1320,1300,NA,NA
+"Mauritania","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Mauritius","2015","No data received","","","","","",5.7,1152.2,529.2,571.2,262.3,"Africa",18.9,52.8,9480,10100,17.2,38
+"Mauritius","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",5.7,1278,599.7,624.5,293,"Africa",NA,NA,10200,11000,NA,NA
+"Mauritius","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Mexico","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",5.8,1026,539,414.5,217.8,"Americas",12.5,39.8,10000,9790,18.7,59
+"Mexico","2017","Yes","Yes","PAP smear","Opportunistic screening","","Yes",5.5,1035.6,494.7,427.5,204.2,"Americas",NA,NA,10300,10000,NA,NA
+"Mexico","2019","Yes","Yes","PAP smear","Opportunistic screening","","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Micronesia (Federated States of)","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",12.5,437.6,378,11.2,9.7,"",NA,NA,NA,NA,NA,NA
+"Micronesia (Federated States of)","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",12.4,493.2,424.8,11.9,10.2,"",NA,NA,NA,NA,NA,NA
+"Micronesia (Federated States of)","2019","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Monaco","2015","Yes","Yes","","Organized population-based screening","70 or more","Yes",2,3405.2,3314.2,204.9,199.4,"",NA,NA,189000,NA,NA,NA
+"Monaco","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",1.8,2991.1,2932.4,206,202,"",NA,NA,186000,NA,NA,NA
+"Monaco","2019","Yes","Yes","PAP smear","Organized population-based screening","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Mongolia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",4.2,516.6,167.3,185.5,60.1,"Asia",7.87,16.6,3900,3580,5.77,9.27
+"Mongolia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",4,518.1,148.8,166.6,47.8,"Asia",NA,NA,4000,3400,NA,NA
+"Mongolia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Montenegro","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",21.1,63,7280,7460,21.4,48.5
+"Montenegro","2017","Yes","Yes","HPV test","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",NA,NA,7850,8040,NA,NA
+"Montenegro","2019","Yes","Yes","HPV test","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Morocco","2015","Yes","Yes","","Organized population-based screening","Less than 10","No",5.1,401.2,147.4,223.1,82,"Africa",19,43.9,3220,3160,9.14,13.8
+"Morocco","2017","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","No",5.2,438.1,161,236.3,86.8,"Africa",NA,NA,3310,3240,NA,NA
+"Morocco","2019","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Mozambique","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",5.3,62.9,27.8,4.4,1.9,"Africa",11.4,10.8,579,568,14.9,10.9
+"Mozambique","2017","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",4.9,61.8,21.1,4.6,1.6,"Africa",NA,NA,589,570,NA,NA
+"Mozambique","2019","Yes","Yes","Visual inspection","Opportunistic screening","more than 50 but less than 70","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Myanmar","2015","No","No","","","","No",5.2,280.7,62,197.7,43.7,"Asia",20,16.6,1340,1290,15.6,19.4
+"Myanmar","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",4.7,287.6,58,219.3,44.2,"Asia",NA,NA,1490,1450,NA,NA
+"Myanmar","2019","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Namibia","2015","No data received","","","","","",9.9,1058.3,477.2,75.8,34.2,"Africa",16.2,26.5,6410,6380,24.3,31.1
+"Namibia","2017","No","No","","","","No",8.6,895.4,447.3,69.2,34.6,"Africa",NA,NA,6190,6000,NA,NA
+"Namibia","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Nauru","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",13.3,1381.2,1054.2,13.3,10.2,"",NA,NA,9140,NA,NA,NA
+"Nauru","2017","No","No","","","","No",11,1309.6,1106.8,12.1,10.2,"",NA,NA,10200,NA,NA,NA
+"Nauru","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Nepal","2015","No","No","","","","No",6.2,153.7,45.1,91.4,26.8,"Asia",12.3,14.4,732,744,6.53,6.62
+"Nepal","2017","No","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",5.6,150.1,47.9,86.7,27.7,"Asia",NA,NA,779,789,NA,NA
+"Nepal","2019","No","Yes","Visual inspection","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Netherlands","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",10.3,5205.2,4674.7,587.5,527.6,"Europe",23.5,118,51900,51900,25.3,136
+"Netherlands","2017","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",10.1,5513.1,4911.4,611.2,544.5,"Europe",NA,NA,53900,54300,NA,NA
+"Netherlands","2019","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"New Zealand","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.3,3481.5,3582.3,465.3,478.8,"Oceania",22.1,97.9,36800,35500,22.6,149
+"New Zealand","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.2,3767.5,3937.2,511.5,534.6,"Oceania",NA,NA,37700,36200,NA,NA
+"New Zealand","2019","Yes","Yes","HPV test","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Oceania",NA,NA,NA,NA,NA,NA
+"Nicaragua","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",8,423.6,165.9,149.2,58.4,"Americas",8.85,17.2,1840,1780,18.5,29.1
+"Nicaragua","2017","No","No","","","","No",8.6,506.2,192.1,165,62.6,"Americas",NA,NA,1960,1900,NA,NA
+"Nicaragua","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Niger","2015","No","No","","","","No",7.1,69.6,26,36,13.4,"Africa",12.1,11.6,386,378,29.4,22.1
+"Niger","2017","No","No","","","","No",7.7,78.9,29.3,37.7,14,"Africa",NA,NA,394,385,NA,NA
+"Niger","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Nigeria","2015","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",3.6,217.5,97.8,156.3,70.3,"Africa",24.8,37.7,2560,2510,50.4,57.9
+"Nigeria","2017","Yes","Yes","PAP smear","Organized population-based screening","","Yes",3.8,221.1,73.9,170.7,57.1,"Africa",NA,NA,2410,2350,NA,NA
+"Nigeria","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Niue","2015","No","Yes","PAP smear","","","No",8.2,1037,1130.3,9.8,10.7,"",NA,NA,NA,NA,NA,NA
+"Niue","2017","No","No","","","","No",8.6,1106.5,1258.9,9.9,11.3,"",NA,NA,NA,NA,NA,NA
+"Niue","2019","No","Yes","PAP smear","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Norway","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",10.1,6144.1,7565.5,868.9,1070,"Europe",16.9,83.8,90000,93800,30.8,158
+"Norway","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",10.4,6518.9,7936.4,924.2,1125.2,"Europe",NA,NA,91500,95300,NA,NA
+"Norway","2019","Yes","Yes","HPV test","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Oman","2015","Yes","No","","","","No",4.3,1833,706.4,105.1,40.5,"Asia",10.5,26.8,16700,16400,8.38,15.9
+"Oman","2017","Yes","No","","","","No",3.8,1590.8,587.6,106.5,39.3,"Asia",NA,NA,16100,16000,NA,NA
+"Oman","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Pakistan","2015","No","No","","","","No",2.7,134.8,37.9,89.2,25.1,"Asia",29,41.8,1080,1150,8.13,12.7
+"Pakistan","2017","Yes","No","","","","No",2.9,160.6,44.6,96.7,26.9,"Asia",NA,NA,1160,1220,NA,NA
+"Pakistan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Palau","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",10.9,1652.5,1498.6,246.9,223.9,"",NA,NA,12600,13700,NA,NA
+"Palau","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",12,1777.8,1596.4,274.8,246.8,"",NA,NA,12100,12800,NA,NA
+"Palau","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Panama","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6.8,1513.6,927.8,458.4,281,"Americas",13.8,45.5,10800,9650,27.7,103
+"Panama","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",7.3,1794.8,1112.3,597.1,370.1,"Americas",NA,NA,11500,10400,NA,NA
+"Panama","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Papua New Guinea","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",1.9,78.2,49.9,9.7,6.2,"",23,29,2400,NA,18.1,20.6
+"Papua New Guinea","2017","No","No","","","","Yes",2.5,103.9,61.5,9.3,5.5,"",NA,NA,2490,NA,NA,NA
+"Papua New Guinea","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Paraguay","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",6.7,802.6,367.5,354.7,162.4,"Americas",21.3,45.7,4940,4760,29.2,49.4
+"Paraguay","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",6.7,866.6,381.1,382.8,168.4,"Americas",NA,NA,5270,5110,NA,NA
+"Paraguay","2019","No","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Peru","2015","Yes","Yes","PAP smear","Organized population-based screening","","Yes",5,637.2,306.8,188.8,90.9,"Americas",9.72,22.3,6110,5920,23.5,46.2
+"Peru","2017","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","Yes",5,681.2,332.6,192,93.7,"Americas",NA,NA,6310,6030,NA,NA
+"Peru","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Philippines","2015","Yes","Yes","Visual inspection","Opportunistic screening","","Yes",4.3,317.3,124.4,173.8,68.1,"Asia",22.7,45.8,2610,3150,22.1,31.9
+"Philippines","2017","No","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",4.4,371.7,132.9,197.2,70.5,"Asia",NA,NA,2880,3470,NA,NA
+"Philippines","2019","Yes","Yes","Visual inspection","Opportunistic screening","","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Poland","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",6.4,1717.4,804,400.4,187.4,"Europe",17.6,60,14600,14100,23.3,54.1
+"Poland","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",6.5,1958.2,906.8,451.4,209,"Europe",NA,NA,15800,15200,NA,NA
+"Poland","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Portugal","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",9,2659,1724.5,737.3,478.2,"Europe",17.3,62.6,22000,21400,24.5,90.3
+"Portugal","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9,2917.4,1908,803.2,525.3,"Europe",NA,NA,23400,22800,NA,NA
+"Portugal","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Qatar","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",3.1,3991.1,2031.9,269.2,137.1,"",19.8,57.2,65100,63100,9.68,23.5
+"Qatar","2017","Yes","Yes","PAP smear","Opportunistic screening","","No",2.6,3354.4,1649.2,298.6,146.8,"",NA,NA,63600,62500,NA,NA
+"Qatar","2019","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Republic of Korea","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",7,2540.3,1925.5,864.4,655.2,"",NA,NA,NA,NA,NA,NA
+"Republic of Korea","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",7.6,2980.2,2283.1,1003.4,768.7,"",NA,NA,NA,NA,NA,NA
+"Republic of Korea","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Republic of Moldova","2015","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","No",8.6,515.8,186.4,238.2,86.1,"",NA,NA,NA,NA,NA,NA
+"Republic of Moldova","2017","Yes","Yes","PAP smear","Opportunistic screening","70 or more","No",7,476.7,191.2,208,83.4,"",NA,NA,NA,NA,NA,NA
+"Republic of Moldova","2019","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Republic of North Macedonia","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",6.3,877.2,306.9,300.6,105.2,"",NA,NA,NA,NA,NA,NA
+"Republic of North Macedonia","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",6.1,926.9,328.4,295.7,104.8,"",NA,NA,NA,NA,NA,NA
+"Republic of North Macedonia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Romania","2015","No","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",4.9,1066.2,442.2,226.9,94.1,"Europe",18.1,50.2,9710,9470,16.1,58.5
+"Romania","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",5.2,1367.8,555.1,280.2,113.7,"Europe",NA,NA,11000,10700,NA,NA
+"Romania","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Russian Federation","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",5.3,1296.5,501.9,501,193.9,"",NA,NA,NA,NA,NA,NA
+"Russian Federation","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",5.3,1404.2,585.9,568.6,237.2,"",NA,NA,NA,NA,NA,NA
+"Russian Federation","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Rwanda","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",6.5,120.9,46.4,9.2,3.5,"Africa",15.9,17.2,730,712,46.2,38.8
+"Rwanda","2017","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",6.6,134.4,49.2,8.4,3.1,"Africa",NA,NA,780,761,NA,NA
+"Rwanda","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Saint Kitts and Nevis","2015","No","Yes","PAP smear","Opportunistic screening","10 to 50","No",4.9,1347.5,848.9,732,461.2,"",NA,NA,NA,NA,NA,NA
+"Saint Kitts and Nevis","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",5,1442.1,902.7,688.9,431.2,"",NA,NA,NA,NA,NA,NA
+"Saint Kitts and Nevis","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Saint Lucia","2015","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",4.8,620.5,445,291.8,209.2,"",NA,NA,NA,NA,NA,NA
+"Saint Lucia","2017","Yes","Yes","PAP smear","Opportunistic screening","","No",4.5,662.3,460.1,296.4,205.9,"",NA,NA,NA,NA,NA,NA
+"Saint Lucia","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Saint Vincent and the Grenadines","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","No",4.3,475.6,294.4,158.4,98,"",NA,NA,NA,NA,NA,NA
+"Saint Vincent and the Grenadines","2017","No","No","","","","Yes",4.5,528.1,320.6,164.7,100,"",NA,NA,NA,NA,NA,NA
+"Saint Vincent and the Grenadines","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Samoa","2015","No data received","","","","","",5.7,336.9,222.9,38.7,25.6,"",23.7,30,3560,NA,20.8,21.4
+"Samoa","2017","No","No","","","","No",5.5,364,233.1,43.2,27.6,"",NA,NA,3850,NA,NA,NA
+"Samoa","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"San Marino","2015","Yes","Yes","HPV test","Organized population-based screening","70 or more","Yes",7.4,3584.8,3163.8,686.3,605.7,"",NA,NA,52000,NA,NA,NA
+"San Marino","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",7.4,4369.7,3361.6,757.4,582.7,"",NA,NA,53300,NA,NA,NA
+"San Marino","2019","Yes","Yes","HPV test","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Sao Tome and Principe","2015","No","Yes","HPV test","Organized population-based screening","10 to 50","Yes",5.4,169.6,86.9,27.3,14,"Africa",13.8,16.6,1240,NA,17.8,16.8
+"Sao Tome and Principe","2017","No","Yes","HPV test","Organized population-based screening","10 to 50","No",6.2,209.2,119.7,28.8,16.5,"Africa",NA,NA,1290,NA,NA,NA
+"Sao Tome and Principe","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Saudi Arabia","2015","Yes","No","","","","No",6,3249.4,1243.6,467.4,178.9,"Asia",12.3,34.9,21400,21900,9.02,19.9
+"Saudi Arabia","2017","Yes","No","","","","No",5.2,2826.3,1093.4,476.5,184.3,"Asia",NA,NA,20700,21000,NA,NA
+"Saudi Arabia","2019","Yes","No","","","","No",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Senegal","2015","No","No","","","","Yes",4.4,136.8,52,69.6,26.5,"Africa",18.3,16.8,1380,1350,36.9,23.9
+"Senegal","2017","No","No","","","","Yes",4.1,143.1,55,75,28.8,"Africa",NA,NA,1490,1450,NA,NA
+"Senegal","2019","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Serbia","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",8.8,1312.5,491.3,532.7,199.4,"Europe",25.5,69.2,6160,5870,21.5,47
+"Serbia","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",8.4,1382.2,528.5,577.1,220.7,"Europe",NA,NA,6560,6130,NA,NA
+"Serbia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Seychelles","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",4.6,1213.8,674.2,350.7,194.8,"",22.8,60.5,13200,NA,60.4,125
+"Seychelles","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",5,1485.5,791.7,365.4,194.7,"",NA,NA,14000,NA,NA,NA
+"Seychelles","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Sierra Leone","2015","No","No","","","","No",20.4,288.8,119.8,106,44,"Africa",19.4,21.1,441,435,29.3,24.6
+"Sierra Leone","2017","No","No","","","","No",13.4,205.4,66.4,103.5,33.5,"Africa",NA,NA,467,452,NA,NA
+"Sierra Leone","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Singapore","2015","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",4.2,3696.4,2326.3,1223,769.7,"Asia",14.9,74.5,53900,50200,8.38,39.3
+"Singapore","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",4.4,4270,2618.7,1371.7,841.3,"Asia",NA,NA,56700,52700,NA,NA
+"Singapore","2019","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Slovakia","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",6.8,2033.8,1108.4,375.1,204.4,"",NA,NA,NA,NA,NA,NA
+"Slovakia","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",6.7,2184.2,1186.1,408.7,222,"",NA,NA,NA,NA,NA,NA
+"Slovakia","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Slovenia","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.5,2689.4,1775.1,336.1,221.9,"Europe",18.7,66.6,23800,23100,29.7,73.8
+"Slovenia","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",8.2,2960.6,1920.3,365,236.7,"Europe",NA,NA,25700,25300,NA,NA
+"Slovenia","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Solomon Islands","2015","No","No","","","","Yes",5.2,120.5,103.2,5.8,5,"",32.1,34.3,1440,NA,23.7,21.1
+"Solomon Islands","2017","No","No","","","","Yes",4.7,115.2,101.2,6.2,5.5,"",NA,NA,1470,NA,NA,NA
+"Solomon Islands","2019","No","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Somalia","2015","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",24.2,23.9,NA,NA,43.9,38.2
+"Somalia","2017","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Somalia","2019","Yes","Yes","PAP smear","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"South Africa","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",8.2,1083.7,470.8,83.4,36.2,"Africa",17.7,45.4,7560,7370,36.9,76
+"South Africa","2017","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",8.1,1097.8,499.2,85.3,38.8,"Africa",NA,NA,7480,7250,NA,NA
+"South Africa","2019","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"South Sudan","2015","No data received","","","","","",NA,NA,NA,NA,NA,"",12.4,13.5,731,NA,36.4,33.5
+"South Sudan","2017","No","No","","","","No",9.8,175.8,22.9,33.7,4.4,"",NA,NA,NA,NA,NA,NA
+"South Sudan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Spain","2015","Yes","Yes","PAP smear","Opportunistic screening","","Yes",9.1,3190.5,2351.5,758.9,559.4,"Europe",15,60.2,30500,30500,17.7,65.2
+"Spain","2017","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",8.9,3468.7,2506.5,817.4,590.7,"Europe",NA,NA,32300,32300,NA,NA
+"Spain","2019","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Sri Lanka","2015","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",3.9,465.9,151.4,228,74.1,"Asia",9.57,21,3650,3550,7.22,13.1
+"Sri Lanka","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",3.8,503.6,159.5,250.6,79.4,"Asia",NA,NA,3850,3750,NA,NA
+"Sri Lanka","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Sudan","2015","No","No","","","","No",7.2,289.3,158,182.9,99.9,"Africa",17.5,29.1,1870,1710,11.6,12.9
+"Sudan","2017","No","No","","","","No",6.3,313.7,193.8,227.4,140.5,"Africa",NA,NA,1950,1800,NA,NA
+"Sudan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Suriname","2015","No","No","","","","Yes",6.2,972.6,538.2,214,118.4,"",18.8,39.1,8460,NA,49.8,79.1
+"Suriname","2017","No","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",6.2,946.4,339.3,249.7,89.5,"",NA,NA,7970,NA,NA,NA
+"Suriname","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Sweden","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",11,5358.2,5623.2,829.8,870.8,"Europe",18.5,96.2,56100,56600,31.1,154
+"Sweden","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",11,5699.6,5904.6,856.8,887.6,"Europe",NA,NA,57400,58200,NA,NA
+"Sweden","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Switzerland","2015","Yes","Yes","PAP smear","Opportunistic screening","more than 50 but less than 70","Yes",11.9,7640,9807.8,2221.4,2851.7,"Europe",18.8,89,76600,78400,22.7,132
+"Switzerland","2017","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",12.3,8217,9956.3,2378.6,2882,"Europe",NA,NA,77700,NA,NA,NA
+"Switzerland","2019","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Syrian Arab Republic","2015","Yes","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Syrian Arab Republic","2017","Yes","Yes","PAP smear","Organized population-based screening","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Syrian Arab Republic","2019","Yes","Yes","PAP smear","Organized population-based screening","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Tajikistan","2015","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","No",6.9,194.8,63.5,121.9,39.7,"",7.85,13.6,936,NA,6.62,8.45
+"Tajikistan","2017","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","No",7.2,231.4,57.9,146.1,36.6,"",NA,NA,1020,NA,NA,NA
+"Tajikistan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Thailand","2015","Yes","No","","","","No",3.7,597.3,214.4,74.7,26.8,"Asia",11.9,30.8,5740,5450,8.38,17.4
+"Thailand","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",3.7,670.9,247,74.8,27.5,"Asia",NA,NA,6130,5850,NA,NA
+"Thailand","2019","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"Asia",NA,NA,NA,NA,NA,NA
+"Timor-Leste","2015","Yes","Yes","","","","",3.5,276.1,87.4,22.9,7.3,"",13.6,19.7,3110,3100,14.5,16
+"Timor-Leste","2017","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",3.9,263.8,83.2,22,6.9,"",NA,NA,2740,2780,NA,NA
+"Timor-Leste","2019","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Togo","2015","Yes","Yes","Visual inspection","Organized population-based screening","Less than 10","No",6.2,96.7,35.2,52.7,19.2,"Africa",19.3,18.8,630,651,33.4,25.8
+"Togo","2017","No","No","","","","Yes",6.2,103.7,38,60.6,22.2,"Africa",NA,NA,660,660,NA,NA
+"Togo","2019","No","No","","","","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Tonga","2015","Yes","No","","","","No",4.7,265.4,180.9,33.2,22.6,"",44.2,65.9,3900,NA,39.5,46.5
+"Tonga","2017","No","No","","","","No",5.3,335.3,222,35.6,23.6,"",NA,NA,4090,NA,NA,NA
+"Tonga","2019","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Trinidad and Tobago","2015","No","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",6,2093.3,1115.5,864.7,460.8,"Americas",22.7,60,16800,NA,73,143
+"Trinidad and Tobago","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",7,2205.8,1124.1,877.4,447.1,"Americas",NA,NA,15300,NA,NA,NA
+"Trinidad and Tobago","2019","Don't know","Yes","PAP smear","Organized population-based screening","10 to 50","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Tunisia","2015","No response","","","","","",7,805.7,268.2,318.8,106.1,"Africa",17.6,40.8,4310,NA,14.5,23.7
+"Tunisia","2017","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","No",7.2,863.3,250.6,337.7,98,"Africa",NA,NA,4340,NA,NA,NA
+"Tunisia","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Turkey","2015","Yes","Yes","HPV test","Organized population-based screening","more than 50 but less than 70","No",4.1,1064,454.6,180.3,77.1,"Europe",10.5,31.9,13900,13700,14.9,32.9
+"Turkey","2017","Yes","Yes","HPV test","Organized population-based screening","70 or more","No",4.2,1180.6,444.7,205.2,77.3,"Europe",NA,NA,14900,14700,NA,NA
+"Turkey","2019","Yes","Yes","HPV test","Organized population-based screening","70 or more","No",NA,NA,NA,NA,NA,"Europe",NA,NA,NA,NA,NA,NA
+"Turkmenistan","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","No",6.3,1008.4,405.1,716.7,287.9,"",11.6,33,6690,NA,6.3,13
+"Turkmenistan","2017","Yes","Yes","Visual inspection","Organized population-based screening","70 or more","Yes",6.9,1249.6,456.5,909.2,332.1,"",NA,NA,7320,NA,NA,NA
+"Turkmenistan","2019","Yes","Yes","Visual inspection","Opportunistic screening","more than 50 but less than 70","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Tuvalu","2015","No","Yes","PAP smear","Organized population-based screening","10 to 50","No",16.7,606.7,536,1.3,1.2,"",NA,NA,3430,NA,NA,NA
+"Tuvalu","2017","No","Yes","PAP smear","Organized population-based screening","10 to 50","No",17.1,694.3,622.2,3.6,3.2,"",NA,NA,3590,NA,NA,NA
+"Tuvalu","2019","No","Yes","PAP smear","Opportunistic screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Uganda","2015","Yes","Yes","Visual inspection","Opportunistic screening","Less than 10","Yes",6.8,126,41.6,49,16.2,"Africa",27.8,32.7,687,674,75.4,63.8
+"Uganda","2017","Yes","Yes","Visual inspection","Opportunistic screening","10 to 50","Yes",6.3,122.7,38.9,47.3,15,"Africa",NA,NA,694,675,NA,NA
+"Uganda","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Ukraine","2015","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",6.9,531.2,141.6,287.2,76.5,"",17.9,47.1,2830,2790,15.4,37.9
+"Ukraine","2017","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",7,584.6,177.4,305.8,92.8,"",NA,NA,2990,2900,NA,NA
+"Ukraine","2019","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"United Arab Emirates","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",3.6,2547.8,1402,453.2,249.4,"",18.3,55.1,40200,40400,10.6,23.9
+"United Arab Emirates","2017","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","Yes",3.3,2468.5,1357,465.8,256,"",NA,NA,40700,41000,NA,NA
+"United Arab Emirates","2019","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"United Kingdom of Great Britain and Northern Ireland","2015","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.7,4089.9,4326.3,618.5,654.3,"",NA,NA,NA,NA,NA,NA
+"United Kingdom of Great Britain and Northern Ireland","2017","Yes","Yes","","","","",9.6,4338.4,3858.7,692.3,615.7,"",NA,NA,NA,NA,NA,NA
+"United Kingdom of Great Britain and Northern Ireland","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"United Republic of Tanzania","2015","No data received","","","","","",3.6,94.5,32.1,24.4,8.3,"",NA,NA,NA,NA,NA,NA
+"United Republic of Tanzania","2017","No","No","","","","No",3.6,104.3,33.9,25.1,8.2,"",NA,NA,NA,NA,NA,NA
+"United Republic of Tanzania","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"United States of America","2015","Yes","Yes","PAP smear","Opportunistic screening","70 or more","Yes",16.8,9538.1,9538.1,1065.6,1065.6,"",NA,NA,NA,NA,NA,NA
+"United States of America","2017","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","Yes",17.1,10246.1,10246.1,1126.3,1126.3,"",NA,NA,NA,NA,NA,NA
+"United States of America","2019","Yes","Yes","PAP smear","Opportunistic screening","Less than 10","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Uruguay","2015","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",9,1907.9,1398.5,322.8,236.6,"Americas",26.9,69.5,13900,13300,38.7,83.8
+"Uruguay","2017","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",9.3,2101.9,1591.5,368.9,279.3,"Americas",NA,NA,14400,13600,NA,NA
+"Uruguay","2019","Yes","Yes","PAP smear","Organized population-based screening","70 or more","Yes",NA,NA,NA,NA,NA,"Americas",NA,NA,NA,NA,NA,NA
+"Uzbekistan","2015","Yes","Yes","PAP smear","Opportunistic screening","","No",6.1,375.3,131.6,181.7,63.7,"",13.6,32.2,2140,NA,6.04,9.79
+"Uzbekistan","2017","Yes","Yes","PAP smear","Organized population-based screening","","No",6.4,447.9,98.8,239.3,52.8,"",NA,NA,2290,NA,NA,NA
+"Uzbekistan","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Vanuatu","2015","No","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",4.2,128.3,119.4,9.8,9.1,"",27.4,31.3,2780,NA,23.6,21.9
+"Vanuatu","2017","No","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",3.3,110.4,105.7,9.9,9.5,"",NA,NA,2860,NA,NA,NA
+"Vanuatu","2019","Yes","Yes","PAP smear","Opportunistic screening","10 to 50","Yes",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Venezuela (Bolivarian Republic of)","2015","No data received","","","","","",5.1,846.9,566.9,239.2,160.1,"",NA,NA,NA,NA,NA,NA
+"Venezuela (Bolivarian Republic of)","2017","Yes","Yes","PAP smear","Organized population-based screening","more than 50 but less than 70","No",1.2,141,94.2,88.8,59.4,"",NA,NA,NA,NA,NA,NA
+"Venezuela (Bolivarian Republic of)","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Viet Nam","2015","Yes","Yes","PAP smear","Organized population-based screening","Less than 10","No",5.7,335.3,116.7,145.8,50.8,"",NA,NA,NA,NA,NA,NA
+"Viet Nam","2017","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",5.5,375.6,129.6,170,58.6,"",NA,NA,NA,NA,NA,NA
+"Viet Nam","2019","Yes","Yes","PAP smear","Organized population-based screening","10 to 50","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Yemen","2015","Yes","No","","","","No",4.2,139,72,112.5,58.3,"",19.7,25.7,909,NA,11.7,11.7
+"Yemen","2017","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,703,NA,NA,NA
+"Yemen","2019","No","No","","","","No",NA,NA,NA,NA,NA,"",NA,NA,NA,NA,NA,NA
+"Zambia","2015","Yes","Yes","Visual inspection","Organized population-based screening","more than 50 but less than 70","Yes",4.4,171.8,58.5,21,7.2,"Africa",14.7,16,1640,NA,50.5,45.1
+"Zambia","2017","Yes","Yes","Visual inspection","Organized population-based screening","more than 50 but less than 70","Yes",4.5,180.3,67.6,21.4,8,"Africa",NA,NA,1660,NA,NA,NA
+"Zambia","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA
+"Zimbabwe","2015","Yes","Yes","Visual inspection","Organized population-based screening","10 to 50","Yes",7.5,174.8,94.3,45.1,24.3,"Africa",26.7,28.5,1230,1100,77.5,62.8
+"Zimbabwe","2017","No","Yes","PAP smear","","10 to 50","No",6.6,201,110.1,41.5,22.7,"Africa",NA,NA,1260,1150,NA,NA
+"Zimbabwe","2019","No","No","","","","Yes",NA,NA,NA,NA,NA,"Africa",NA,NA,NA,NA,NA,NA

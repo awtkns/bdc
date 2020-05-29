@@ -4,9 +4,9 @@ export const getSlugs = async ({ $axios }) =>
 export const getDataset = async ({ $axios }, slug) =>
   (await $axios.get(`/dataset/${slug}`)).data;
 
-export const getBarChartData = async ({ $axios }, slug, variable, countries) => {
+export const getBarChartData = async ({ $axios }, slug, variables, countries) => {
   const config = { headers: { 'Content-Type': 'application/json' } };
-  const data = {'col': variable, 'countries': countries};
+  const data = {'cols': variables, 'countries': countries};
   return (await $axios.put(`/barChartData/${slug}`, data, config)).data
 };
 

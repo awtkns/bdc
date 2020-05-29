@@ -26,11 +26,11 @@ def get_available_dataset():
 @app.route('/dataset/<slug>')
 def get_dataset(slug):
     return datasets[str(slug)], 200
-    
+
 
 @app.route('/barChartData/<slug>', methods=['PUT'])
 def get_bar_chart(slug):
-    col = request.json['col']
+    cols = request.json['cols']
     countries = request.json['countries']
 
     # TODO remove
@@ -39,7 +39,7 @@ def get_bar_chart(slug):
             slug = s['slug']
             break
 
-    df = dataframes[str(slug)].loc[:, col]
+    df = dataframes[str(slug)].loc[:, cols]
     df = df.loc[countries]
     df = df.fillna(0)
     data_dict = df.to_dict(orient='list')

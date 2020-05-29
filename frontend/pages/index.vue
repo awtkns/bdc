@@ -1,39 +1,47 @@
 <template>
   <v-row justify="center">
-    <v-col cols="9">
-      <v-select v-model="selected" :items="slugs" item-text="title" return-object @change="getDataset" label="Dataset" />
+    <v-col lg="8" >'
+      <div v-text="this.attributes.subtitle" class="subtitle text-center" />
+      <div v-text="this.attributes.title" class="title font-weight-bold mb-2 text-center" />
+      <div class="subtitle text-center">
+        <span v-for="a in this.attributes.authors" v-html="a" />
+      </div>
+      <Manuscript class="text-left" />
+      <Datatable :slugs="slugs" />
     </v-col>
-
-    <v-card outlined>
-      <v-data-table v-if="dataset" :items="dataset.table.items" :headers="dataset.table.headers" dense>
-        <template v-slot:top>
-          <v-toolbar class="text-center display-1" flat>
-            <v-spacer/>
-            {{ dataset.title }}
-            <v-spacer/>
-          </v-toolbar>
-        </template>
-      </v-data-table>
-    </v-card>
   </v-row>
 </template>
 
 <script>
-  import {getDataset, getSlugs} from "../api";
+import Chart from "../components/Chart";
+import Datatable from "../components/Datatable";
+import fm from '~/articles/manuscript.md'
+import {getSlugs} from "../api";
 
 export default {
+  name: 'Blog',
+  components: {
+    Datatable,
+    Chart,
+    Manuscript: {
+      extends: fm.vue.component,
+      components: { Chart }
+    }
+  },
+  layout: 'homepage',
   data: () => ({
-    slugs: [],
-    selected: undefined,
-    dataset: undefined,
+    attributes: fm.attributes,
+    body: undefined,
+    slugs: []
   }),
   async created() {
     this.slugs = await getSlugs(this)
   },
-  methods: {
-    async getDataset() {
-      this.dataset = await getDataset(this, this.selected.slug)
-    }
-  }
 }
 </script>
+
+<style scoped>
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>

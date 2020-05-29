@@ -6,8 +6,8 @@ from inflection import humanize
 
 
 def read_csv(fp):
-    print(fp)
     df = pd.read_csv(fp, index_col='country')
+    print(fp)
     return df
 
 
@@ -23,7 +23,7 @@ def df_to_datatable(df):
     return {
         'items': df_dict['data'],
         'headers': get_headers(df_dict['schema']['fields']),
-        'title': 'New Breast Cancer Case per 100k women',
+        'title': 'New Breast Cancer Case per 100k women'
     }
 
 
@@ -34,6 +34,7 @@ def get_headers(fields: dict):
 def get_datasets():
     web_dir = os.path.join(os.path.dirname(__file__), 'web_ready')
 
+    dataframes = {}
     datasets = {}
     for (slug, f_name) in enumerate(os.listdir(web_dir)):
         fp = os.path.join(web_dir, f_name)
@@ -41,9 +42,13 @@ def get_datasets():
         if fp.endswith('.csv'):
             df = read_csv(fp)
 
-            datasets[str(slug)] = {
-                'title': humanize(f_name.strip('.csv')),
-                'table': df_to_datatable(df)
-            }
+            dataframes[str(slug)] = df
 
-    return datasets
+            datasets[str(slug)] = {
+                'title': humanize(f_name.replace(".csv", "")),
+                'table': df_to_datatable(df),
+                'columns': df.columns.values.tolist(),
+                'indices': df.index.values.tolist()
+            }
+            
+    return dataframes, datasets

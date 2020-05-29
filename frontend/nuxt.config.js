@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import FMMode from 'frontmatter-markdown-loader/mode'
 
 export default {
   mode: 'spa',
@@ -40,6 +41,18 @@ export default {
           success: colors.green.accent3
         }
       }
+    }
+  },
+
+  build: {
+    extend(config, ctx) {
+      config.module.rules.push({
+          test: /\.md$/,
+          loader: "frontmatter-markdown-loader",
+          options: {
+            mode: [FMMode.VUE_COMPONENT],
+          }
+        })
     }
   }
 }

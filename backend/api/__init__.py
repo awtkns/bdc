@@ -28,6 +28,24 @@ def get_dataset(slug):
     return datasets[str(slug)], 200
 
 
+@app.route('/scatterChartData/<slug>', methods=['PUT'])
+def get_scatter_chart(slug):
+    for s in slugs:
+        if 'year master' in s['title']:
+            slug = s['slug']
+            break
+
+    df = dataframes[str(slug)]
+    df = df.set_index(['year'], append=True)
+    df = df.iloc[:, 1:]
+
+    df = df.fillna(0)
+    print(df)
+
+    return 'ok'
+    # return data_dict
+
+
 @app.route('/barChartData/<slug>', methods=['PUT'])
 def get_bar_chart(slug):
     cols = request.json['cols']

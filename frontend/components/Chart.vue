@@ -4,7 +4,7 @@
       <v-row justify="center" class="title" v-text="chartTile" />
       <BarChart :chart-data="barChartData" :options="barChartOptions" :height="200" />
     </v-col>
-    <v-col cols="5">
+    <v-col cols="5" :order="this.transpose ? '1': '3'">
       <v-combobox
         v-model="barChartSelectedVariable"
         :items="barChartVariables"
@@ -21,7 +21,10 @@
         </template>
       </v-combobox>
     </v-col>
-    <v-col cols="5">
+    <v-col cols="1" order="2" class="text-center">
+       <v-btn @click="swap" icon><v-icon v-text="'mdi-swap-horizontal'" /></v-btn>
+    </v-col>
+    <v-col cols="5" :order="this.transpose ? '3': '1'">
       <v-combobox
         v-model="selectedCountries"
         :items="countries"
@@ -44,6 +47,7 @@
 <script>
 import { getBarChartData, getDataset } from "../api";
 import BarChart from "~/components/BarChart";
+import 'chartjs-plugin-colorschemes';
 
 export default {
   name: "Chart",
@@ -57,6 +61,7 @@ export default {
   data: () => ({
     selectedCountries: ['Canada', 'Belize', 'Zimbabwe'],
     countries: [],
+    transpose: true,
 
     barChartSelectedVariable: ['Computed tomography'],
     barChartVariables: [],
@@ -70,6 +75,11 @@ export default {
       title: {
         display: false,
         text: ''
+      },
+      plugins: {
+        colorschemes: {
+          scheme: 'brewer.SetOne9'
+        }
       },
       scales: {
         yAxes: [
@@ -100,7 +110,11 @@ export default {
   },
   methods: {
     async getChartData() {
-      this.barChartData = await getBarChartData(this, this.slug, this.barChartSelectedVariable, this.selectedCountries);
+      this.barChartData = await getBarChartData(this, this.slug, this.barChartSelectedVariable, this.selectedCountries, this.transpose);
+    },
+    swap() {
+      this.transpose = !this.transpose;
+      this.getChartData()
     }
   }
 }

@@ -12,10 +12,11 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "chart.js": "^2.9.3",
+    "chartjs-plugin-colorschemes": "^0.4.0",
     "frontmatter-markdown-loader": "^3.5.0",
     "nuxt": "^2.0.0",
-    "vue-chartjs": "^3.5.0",
-    "chart.js": "^2.9.3"
+    "vue-chartjs": "^3.5.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0"

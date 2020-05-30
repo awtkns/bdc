@@ -50,6 +50,8 @@ def get_scatter_chart(slug):
 def get_bar_chart(slug):
     cols = request.json['cols']
     countries = request.json['countries']
+    transpose = request.json['transpose']
+
 
     # TODO remove
     for s in slugs:
@@ -60,14 +62,16 @@ def get_bar_chart(slug):
     df = dataframes[str(slug)].loc[:, cols]
     df = df.loc[countries]
     df = df.fillna(0)
-    data_dict = df.to_dict(orient='list')
 
+    if transpose:
+        df = df.transpose()
+
+    data_dict = df.to_dict(orient='list')
     datasets = []
     for label, values in data_dict.items():
         datasets.append({
                 'label': label,
                 'data': values,
-                'backgroundColor': colours[:len(values)]
             })
 
     chart_data = {

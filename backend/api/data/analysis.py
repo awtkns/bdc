@@ -36,14 +36,14 @@ def get_datasets():
 
     dataframes = {}
     datasets = {}
+
     for (slug, f_name) in enumerate(os.listdir(web_dir)):
         fp = os.path.join(web_dir, f_name)
 
         if fp.endswith('.csv'):
+
             df = read_csv(fp)
-
             dataframes[str(slug)] = df
-
             datasets[str(slug)] = {
                 'title': humanize(f_name.replace(".csv", "")),
                 'table': df_to_datatable(df),

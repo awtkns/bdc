@@ -28,7 +28,8 @@ procedures.
 
 Keywords: Cancer, Early Dection, Public Health
 
-<chart slug="4" />
+<chart slug="5" controls title="Units per Million People by Country" />
+<chart slug="4" title="Units per Million People by HDI Quartile" />
 
 ## 1. Introduction
 As the life expectancy of the world population

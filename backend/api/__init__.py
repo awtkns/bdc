@@ -31,7 +31,7 @@ def get_dataset(slug):
 @app.route('/scatterChartData/<slug>', methods=['PUT'])
 def get_scatter_chart(slug):
     for s in slugs:
-        if 'year master' in s['title']:
+        if 'quartile' in s['title']:
             slug = s['slug']
             break
 
@@ -46,23 +46,38 @@ def get_scatter_chart(slug):
     # return data_dict
 
 
-@app.route('/barChartData/<slug>', methods=['PUT'])
-def get_bar_chart(slug):
-    cols = request.json['cols']
-    countries = request.json['countries']
+@app.route('/barChartData/<uri>', methods=['PUT'])
+def get_bar_chart(uri):
+    slug = None
+    df = None
     transpose = request.json['transpose']
 
+    # Countries
+    if str(uri) == '5':
+        cols = request.json['cols']
+        countries = request.json['countries']
 
-    # TODO remove
-    for s in slugs:
-        if 'Med devices labs' in s['title']:
-            slug = s['slug']
-            break
+        for s in slugs:
+            if 'Med devices' in s['title']:
+                slug = s['slug']
+                break
 
-    df = dataframes[str(slug)].loc[:, cols]
-    df = df.loc[countries]
-    df = df.fillna(0)
+        df = dataframes[str(slug)].loc[:, cols]
+        df = df.loc[countries]
+        df = df.fillna(0)
 
+    # Quartile Chart
+    elif str(uri) == '4':
+        for s in slugs:
+            if 'quartile' in s['title']:
+                slug = s['slug']
+                break
+        df = dataframes[str(slug)]
+
+    return chart_format(df, transpose), 200
+
+
+def chart_format(df, transpose=False):
     if transpose:
         df = df.transpose()
 
@@ -70,14 +85,14 @@ def get_bar_chart(slug):
     datasets = []
     for label, values in data_dict.items():
         datasets.append({
-                'label': label,
-                'data': values,
-            })
+            'label': label,
+            'data': values,
+        })
 
     chart_data = {
         'labels': list(df.index),
         'datasets': datasets
     }
 
-    return chart_data, 200
+    return chart_data
 

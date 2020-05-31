@@ -6,8 +6,10 @@ from inflection import humanize
 
 
 def read_csv(fp):
-    df = pd.read_csv(fp, index_col='country')
-    print(fp)
+    df = pd.read_csv(fp)
+    df.index = df[df.columns[0]]
+    df = df.drop(df.columns[0], axis=1)
+
     return df
 
 
@@ -17,7 +19,7 @@ def df_to_datatable(df):
     except KeyError:
         pass
 
-    df = df.append(df.describe())
+    # df = df.append(df.describe())
     df_dict = json.loads(df.to_json(orient='table', double_precision=3))
 
     return {

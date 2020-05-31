@@ -1,10 +1,10 @@
 <template>
   <v-row justify="center">
     <v-col cols="12">
-      <v-row justify="center" class="title" v-text="chartTile" />
+      <v-row justify="center" class="title" v-text="title" />
       <BarChart :chart-data="barChartData" :options="barChartOptions" :height="200" />
     </v-col>
-    <v-col cols="5" :order="this.transpose ? '1': '3'">
+    <v-col v-if="controls" cols="5" :order="this.transpose ? '1': '3'">
       <v-combobox
         v-model="barChartSelectedVariable"
         :items="barChartVariables"
@@ -21,10 +21,10 @@
         </template>
       </v-combobox>
     </v-col>
-    <v-col cols="1" order="2" class="text-center">
+    <v-col v-if="controls" cols="1" order="2" class="text-center">
        <v-btn @click="swap" icon><v-icon v-text="'mdi-swap-horizontal'" /></v-btn>
     </v-col>
-    <v-col cols="5" :order="this.transpose ? '3': '1'">
+    <v-col v-if="controls" cols="5" :order="this.transpose ? '3': '1'">
       <v-combobox
         v-model="selectedCountries"
         :items="countries"
@@ -56,7 +56,9 @@ export default {
     slug: {
       type: String,
       default: null
-    }
+    },
+    controls: Boolean,
+    title: String
   },
   data: () => ({
     selectedCountries: ['Canada', 'Belize', 'Zimbabwe'],
@@ -82,13 +84,15 @@ export default {
         }
       },
       scales: {
-        yAxes: [
-          {
+        yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Units per Million People'
+            },
             ticks: {
               beginAtZero: true
             }
-          }
-        ]
+          }]
       }
     }
   }),
@@ -101,11 +105,6 @@ export default {
     }
   },
   computed: {
-    chartTile: (ctx) => {
-      if (ctx.barChartSelectedVariable.length === 1) return `${ctx.barChartSelectedVariable[0]} per Country`;
-      else if (ctx.barChartSelectedVariable.length === 2) return `${ctx.barChartSelectedVariable[0]} and ${ctx.barChartSelectedVariable[1]} per Country`
-      else return `Multiple factors per Country`
-    },
     otherText: (ctx) => `(+${ctx.selectedCountries.length - 2} others)`
   },
   methods: {

@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center">
-    <v-col lg="8" >'
+    <v-col lg="8" >
       <div v-text="this.attributes.subtitle" class="subtitle text-center" />
       <div v-text="this.attributes.title" class="title font-weight-bold mb-2 text-center" />
       <div class="subtitle text-center">

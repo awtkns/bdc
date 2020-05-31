@@ -14,6 +14,17 @@
         dense
         outlined
       >
+       <template v-slot:prepend-item>
+         <v-list-item>
+           <v-list-item-action>
+             <v-checkbox @change="selectAllVariables" />
+           </v-list-item-action>
+           <v-list-item-title>
+             Select ALL
+           </v-list-item-title>
+         </v-list-item>
+         <v-divider />
+       </template>
         <template v-slot:selection="{ item, index }">
           <span v-if="index < 3" v-text="`${item}${index < (selectedCountries.length - 2) ? ',' : ''}`" class="pr-1" />
           <span v-if="index === 3" class="grey--text caption" v-text="otherText">
@@ -34,6 +45,17 @@
         dense
         outlined
       >
+        <template v-slot:prepend-item>
+         <v-list-item>
+           <v-list-item-action>
+             <v-checkbox @change="selectAllCountries" />
+           </v-list-item-action>
+           <v-list-item-title>
+             Select ALL
+           </v-list-item-title>
+         </v-list-item>
+         <v-divider />
+       </template>
         <template v-slot:selection="{ item, index }">
           <span v-if="index < 3" v-text="`${item}${index < (selectedCountries.length - 2) ? ',' : ''}`" class="pr-1" />
           <span v-if="index === 3" class="grey--text caption" v-text="otherText">
@@ -55,7 +77,7 @@ export default {
   props: {
     slug: {
       type: String,
-      default: null
+      default: ''
     },
     controls: Boolean,
     title: String
@@ -68,33 +90,6 @@ export default {
     barChartSelectedVariable: ['Computed tomography'],
     barChartVariables: [],
     barChartData: undefined,
-
-    barChartOptions: {
-      responsive: true,
-      legend: {
-        display: true,
-      },
-      title: {
-        display: false,
-        text: ''
-      },
-      plugins: {
-        colorschemes: {
-          scheme: 'brewer.SetOne9'
-        }
-      },
-      scales: {
-        yAxes: [{
-            scaleLabel: {
-              display: true,
-              labelString: 'Units per Million People'
-            },
-            ticks: {
-              beginAtZero: true
-            }
-          }]
-      }
-    }
   }),
   async created() {
     if (this.slug) {
@@ -105,7 +100,35 @@ export default {
     }
   },
   computed: {
-    otherText: (ctx) => `(+${ctx.selectedCountries.length - 2} others)`
+    otherText: (ctx) => `(+${ctx.selectedCountries.length - 2} others)`,
+    barChartOptions() {
+      return {
+        responsive: true,
+        legend: {
+          display: this.barChartData ? this.barChartData.datasets.length < 10 : false,
+        },
+        title: {
+          display: false,
+          text: ''
+        },
+        plugins: {
+          colorschemes: {
+            scheme: 'brewer.SetOne9'
+          }
+        },
+        scales: {
+          yAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: 'Units per Million People'
+              },
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+        }
+      }
+    }
   },
   methods: {
     async getChartData() {
@@ -113,6 +136,17 @@ export default {
     },
     swap() {
       this.transpose = !this.transpose;
+      this.getChartData()
+    },
+    selectAllVariables(selected) {
+      if (selected) this.barChartSelectedVariable = this.barChartVariables;
+      else this.barChartSelectedVariable = [];
+      this.getChartData()
+    },
+    selectAllCountries(selected) {
+      console.log('change');
+      if (selected) this.selectedCountries = this.countries;
+      else this.selectedCountries = [];
       this.getChartData()
     }
   }

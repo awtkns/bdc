@@ -80,6 +80,12 @@ def get_bar_chart(uri):
 def chart_format(df, transpose=False):
     if transpose:
         df = df.transpose()
+        df = df.sort_values(by=df.index[0], axis=1, ascending=False)
+    else:
+        df = df.sort_values(by=df.columns[0], ascending=False)
+
+    print(df)
+    print('transpose', transpose)
 
     data_dict = df.to_dict(orient='list')
     datasets = []

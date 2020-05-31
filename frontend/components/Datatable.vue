@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-col cols="9">
-      <v-select v-model="selected" :items="slugs" item-text="title" return-object @change="getDataset" label="Dataset" />
+      <v-select v-model="selected" :items="Object.values(datasetNames)" return-object @change="getDataset" label="Dataset" />
     </v-col>
 
     <v-card outlined>
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import {getDataset, getSlugs} from "../api";
+import {getDataset, getDatasetNames} from "../api";
 
 export default {
   props: {
-    slugs: []
+    datasetNames: []
   },
   data: () => ({
     selected: undefined,
@@ -32,7 +32,7 @@ export default {
   methods: {
     async getDataset() {
       if (this.selected) {
-        this.dataset = await getDataset(this, this.selected.slug)
+        this.dataset = await getDataset(this, this.selected)
       }
     }
   }

@@ -9,8 +9,7 @@ from .data import analysis
 app = Flask(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
-dataframes, datasets = analysis.get_datasets()
-slugs = [{'slug': str(key), 'title': datasets[key]['title']} for key in datasets.keys()]
+datasetNames, datasets, dataframes = analysis.get_datasets()
 
 colours = []
 for _ in range(1000):
@@ -18,63 +17,14 @@ for _ in range(1000):
     colours.append(colour)
 
 
-@app.route('/')
-def get_available_dataset():
-    return {'slugs': slugs}, 200
+@app.route('/datasetNames')
+def get_datasetNames():
+    return datasetNames, 200
 
 
-@app.route('/dataset/<slug>')
-def get_dataset(slug):
-    return datasets[str(slug)], 200
-
-
-@app.route('/scatterChartData/<slug>', methods=['PUT'])
-def get_scatter_chart(slug):
-    for s in slugs:
-        if 'quartile' in s['title']:
-            slug = s['slug']
-            break
-
-    df = dataframes[str(slug)]
-    df = df.set_index(['year'], append=True)
-    df = df.iloc[:, 1:]
-
-    df = df.fillna(0)
-    print(df)
-
-    return 'ok'
-    # return data_dict
-
-
-@app.route('/barChartData/<uri>', methods=['PUT'])
-def get_bar_chart(uri):
-    slug = None
-    df = None
-    transpose = request.json['transpose']
-
-    # Countries
-    if str(uri) == '5':
-        cols = request.json['cols']
-        countries = request.json['countries']
-
-        for s in slugs:
-            if 'Med devices' in s['title']:
-                slug = s['slug']
-                break
-
-        df = dataframes[str(slug)].loc[:, cols]
-        df = df.loc[countries]
-        df = df.fillna(0)
-
-    # Quartile Chart
-    elif str(uri) == '4':
-        for s in slugs:
-            if 'quartile' in s['title']:
-                slug = s['slug']
-                break
-        df = dataframes[str(slug)]
-
-    return chart_format(df, transpose), 200
+@app.route('/dataset/<datasetName>')
+def get_dataset(datasetName):
+    return datasets[datasetName], 200
 
 
 def chart_format(df, transpose=False):
@@ -83,9 +33,6 @@ def chart_format(df, transpose=False):
         df = df.sort_values(by=df.index[0], axis=1, ascending=False)
     else:
         df = df.sort_values(by=df.columns[0], ascending=False)
-
-    print(df)
-    print('transpose', transpose)
 
     data_dict = df.to_dict(orient='list')
     datasets = []
@@ -101,4 +48,48 @@ def chart_format(df, transpose=False):
     }
 
     return chart_data
+
+
+@app.route('/barChartData/<datasetName>', methods=['PUT'])
+def get_bar_chart(datasetName):
+    df = None
+    transpose = request.json['transpose']
+
+    # Countries
+    if str(datasetName) == 'grouped_master_dev_level':
+        cols = request.json['cols']
+        countries = request.json['countries']
+
+        df = dataframes[datasetName].loc[:, cols]
+        df = df.loc[countries]
+        df = df.fillna(0)
+
+    # Quartile Chart
+    elif str(datasetName) == 'imaging_units_per_1M_by_development_quartile':
+        df = dataframes[datasetName]
+
+    return chart_format(df, transpose), 200
+
+@app.route('/lineChartData/<datasetName>', methods=['PUT'])
+def get_line_chart(datasetName):
+    df = None
+    transpose = request.json['transpose']
+
+    df = dataframes[datasetName]
+
+    return chart_format(df, transpose), 200
+
+@app.route('/scatterChartData/<datasetName>', methods=['PUT'])
+def get_scatter_chart(datasetName):
+
+    df = dataframes[datasetName]
+    df = df.set_index(['year'], append=True)
+    df = df.iloc[:, 1:]
+
+    df = df.fillna(0)
+    print(df)
+
+    return 'ok'
+    # return data_dict
+
 

@@ -2,14 +2,14 @@
   <v-row justify="center">
     <v-col cols="12">
       <v-row justify="center" class="title" v-text="title" />
-      <BarChart :chart-data="barChartData" :options="barChartOptions" :height="200" />
+      <BarChart :chart-data="chartData" :options="chartOptions" :height="200" />
     </v-col>
     <v-col v-if="controls" cols="5" :order="this.transpose ? '1': '3'">
       <v-combobox
-        v-model="barChartSelectedVariable"
-        :items="barChartVariables"
+        v-model="selectedVariable"
+        :items="variables"
         @change="getChartData"
-        label="Independent Variable"
+        label="Dependent Variables"
         multiple
         dense
         outlined
@@ -67,36 +67,63 @@
 </template>
 
 <script>
-import { getBarChartData, getDataset } from "../api";
+import { getBarChartData, getLineChartData, getDataset } from "~/api";
 import BarChart from "~/components/BarChart";
+import LineChart from "~/components/LineChart";
 import 'chartjs-plugin-colorschemes';
 
 export default {
   name: "Chart",
-  components: {BarChart},
+  components: {BarChart, LineChart},
   props: {
-    slug: {
-      type: String,
-      default: ''
-    },
-    controls: Boolean,
-    title: String
+    type: String,
+    datasetName: String,
+    title: String,
+    controls: Boolean
   },
   data: () => ({
     selectedCountries: ['Canada', 'Belize', 'Zimbabwe'],
     countries: [],
     transpose: true,
 
-    barChartSelectedVariable: ['Computed tomography'],
-    barChartVariables: [],
-    barChartData: undefined,
+    selectedVariable: ['Computed tomography'],
+    variables: [],
+    
+    chartData: undefined,
+    chartOptions: {
+      responsive: true,
+      legend: {
+        display: true,
+      },
+      title: {
+        display: false,
+        text: ''
+      },
+      plugins: {
+        colorschemes: {
+          scheme: 'brewer.SetOne9'
+        }
+      },
+      scales: {
+        yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Units per Million People'
+            },
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+      }
+    }
   }),
   async created() {
-    if (this.slug) {
-      const ds = await getDataset(this, this.slug);
+    if (this.datasetName != null) {
+
+      const ds = await getDataset(this, this.datasetName);
       this.countries = ds.indices;
-      this.barChartVariables = ds.columns;
-      this.getChartData()
+      this.variables = ds.columns;
+      this.getChartData();
     }
   },
   computed: {
@@ -132,22 +159,21 @@ export default {
   },
   methods: {
     async getChartData() {
-      this.barChartData = await getBarChartData(this, this.slug, this.barChartSelectedVariable, this.selectedCountries, this.transpose);
+      this.chartData = await getBarChartData(this, this.datasetName, this.selectedVariable, this.selectedCountries, this.transpose);
     },
     swap() {
       this.transpose = !this.transpose;
-      this.getChartData()
+      this.getChartData();
     },
     selectAllVariables(selected) {
       if (selected) this.barChartSelectedVariable = this.barChartVariables;
       else this.barChartSelectedVariable = [];
-      this.getChartData()
+      this.getChartData();
     },
     selectAllCountries(selected) {
-      console.log('change');
       if (selected) this.selectedCountries = this.countries;
       else this.selectedCountries = [];
-      this.getChartData()
+      this.getChartData();
     }
   }
 }

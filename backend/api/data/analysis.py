@@ -36,21 +36,24 @@ def get_headers(fields: dict):
 def get_datasets():
     web_dir = os.path.join(os.path.dirname(__file__), 'web_ready')
 
+    datasetNames = {}
     dataframes = {}
     datasets = {}
 
-    for (slug, f_name) in enumerate(os.listdir(web_dir)):
+    for (i, f_name) in enumerate(os.listdir(web_dir)):
         fp = os.path.join(web_dir, f_name)
 
         if fp.endswith('.csv'):
-
+            datasetName = f_name.replace(".csv", "")
             df = read_csv(fp)
-            dataframes[str(slug)] = df
-            datasets[str(slug)] = {
-                'title': humanize(f_name.replace(".csv", "")),
+
+            datasetNames[i] = datasetName
+            dataframes[datasetName] = df
+            datasets[datasetName] = {
+                'title': humanize(datasetName),
                 'table': df_to_datatable(df),
                 'columns': df.columns.values.tolist(),
                 'indices': df.index.values.tolist()
             }
             
-    return dataframes, datasets
+    return (datasetNames, datasets, dataframes)

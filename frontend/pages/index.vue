@@ -7,7 +7,7 @@
         <span v-for="a in this.attributes.authors" v-html="a" />
       </div>
       <Manuscript class="text-left" />
-      <Datatable :slugs="slugs" />
+      <Datatable :datasetNames="datasetNames" />
     </v-col>
   </v-row>
 </template>
@@ -16,7 +16,7 @@
 import Chart from "../components/Chart";
 import Datatable from "../components/Datatable";
 import fm from '~/articles/manuscript.md'
-import {getSlugs} from "../api";
+import {getDatasetNames} from "../api";
 
 export default {
   name: 'Blog',
@@ -32,10 +32,10 @@ export default {
   data: () => ({
     attributes: fm.attributes,
     body: undefined,
-    slugs: []
+    datasetNames: []
   }),
   async created() {
-    this.slugs = await getSlugs(this)
+    this.datasetNames = await getDatasetNames(this)
   },
 }
 </script>

@@ -75,8 +75,10 @@ ggsave(file = save_file, width = 30, height = 15, units = "cm")
 
 
 ############# FIT PLOTTING #############
-y_ax <- c("BC_new", "PC_new")
+y_ax <- c("BC_deaths_%", "PC_deaths_%")
+y_lab <- c("Relative mortality of breast cancer (%)", "Relative mortality of prostate cancer (%)")
 x_ax <- c("HDI")
+x_lab <- c("Human Development Index (HDI)")
 plt_dim <- c(1, 2)
 save_file <- "HDI_vs_rel_deaths_cancer_lm.png"
 
@@ -90,9 +92,9 @@ for (i in 1:length(x_ax)){
     list_plt[[c]] <- ggplot(sub_year, mapping=aes(x=x_plot, y=y_plot)) +
       xlab(x_lab[i]) + ylab(y_lab[j]) + geom_point(size = 0.2, alpha = 0.4) +
       geom_line(aes(colour = country), show.legend = F, alpha = 0.4) +
-      geom_smooth(method='lm', formula= y~x, se = F, colour = "red", size = 1) +
-      stat_poly_eq(formula = y~x, aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
-                   parse = TRUE)
+      geom_smooth(method='lm', formula= y~x, se = F, colour = "red4", size = 1) +
+      stat_poly_eq(formula = y~x, aes(label = paste(..eq.label.., ..rr.label.., ..p.value.label.., sep = "~~~")), 
+                   parse = TRUE, label.x ="right")
   }
 }
 plot_grid(plotlist=list_plt, nrow = plt_dim[1], ncol = plt_dim[2], scale = 0.85)

@@ -56,7 +56,7 @@ def get_bar_chart(datasetName):
     transpose = request.json['transpose']
 
     # Countries
-    if str(datasetName) == 'grouped_master_dev_level':
+    if str(datasetName) == 'grouped_master':
         cols = request.json['cols']
         countries = request.json['countries']
 
@@ -69,15 +69,33 @@ def get_bar_chart(datasetName):
         df = dataframes[datasetName]
 
     return chart_format(df, transpose), 200
+    
 
 @app.route('/lineChartData/<datasetName>', methods=['PUT'])
 def get_line_chart(datasetName):
     df = None
     transpose = request.json['transpose']
 
-    df = dataframes[datasetName]
+    # Countries
+    if str(datasetName) == 'country_year_master':
+        countries = request.json['countries']
+        cols = request.json['cols']
+        dependentVar = cols[0]
+        
+        colsplus = cols
+        colsplus.append("year")
 
-    return chart_format(df, transpose), 200
+        df = dataframes[datasetName].loc[:, colsplus]
+        df = pd.pivot_table(df, index=['country'], columns= "year", values=dependentVar, aggfunc=np.sum, fill_value=0)
+        df.reset_index()
+        df = df.loc[countries]
+        df = df.fillna(0)
+
+    ret = chart_format(df, transpose)
+
+    print(ret)
+
+    return ret, 200
 
 @app.route('/scatterChartData/<datasetName>', methods=['PUT'])
 def get_scatter_chart(datasetName):

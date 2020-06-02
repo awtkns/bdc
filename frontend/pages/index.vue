@@ -21,6 +21,7 @@ import fm from '~/articles/main.md'
 import {getDatasetNames} from "../api";
 import Abstract from "../components/Abstract";
 import Table1 from "../components/Table1";
+import Table2 from "../components/Table2";
 
 export default {
   name: 'Blog',
@@ -28,9 +29,10 @@ export default {
     Abstract,
     Chart,
     Table1,
+    Table2,
     Manuscript: {
       extends: fm.vue.component,
-      components: { Chart, Table1 }
+      components: { Chart, Table1, Table2 }
     }
   },
   layout: 'homepage',
@@ -49,7 +51,4 @@ export default {
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-  p {
-    text-align: justify;
-  }
 </style>

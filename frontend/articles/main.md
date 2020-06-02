@@ -81,7 +81,7 @@ heterogeneous diseases [@owidcancer]. Some types of cancer are
 associated with poor prognosis and low rates of survival, while others
 are slow-growing and easily treatable if detected early. For instance,
 breast and prostate cancers have relatively high 5-year survival rates
-(89.7% and 98.6 % respectively) [@owidcancer].
+(89.7% and 98.6% respectively) [@owidcancer].
 
 Most developed countries have adopted various methods of prevention and
 screening, providing early diagnosis of cancer. Prevention focuses on
@@ -297,18 +297,7 @@ a screening program respectively. Horizontal lines represent the mean,
 72.06±28.92% and 44.73±23.87% for the ’No’ and ’Yes’ group respectively. 
 t-test was calculated to be 4.95 with a p-value of 1.055e-05.
 
-  -------------- ---------- ---------- ---------- ---------- ---------- ---------- --------- ----------
-  Modality       1st        2nd        3rd        4th        1st        2nd        3rd       4th
-  CT             0.075      **0.17**   0.045      **0.25**   0.017      **0.17**   0.015     **0.16**
-  MRI            0.079      **0.12**   0.016      **0.38**   0.028      **0.13**   0.065     **0.16**
-  PET            **0.14**   0.077      **0.19**   **0.14**   **0.32**   0.094      0.00052   **0.13**
-  Gamma          0.029      **0.14**   **0.11**   **0.31**   0.0028     **0.13**   0.065     **0.16**
-  *Diagnostic*   0.061      **0.21**   0.038      **0.4**    0.03       **0.19**   0.00032   **0.27**
-  LINAC          0.025      0.075      0.05       **0.45**   0.012      0.082      0.014     **0.37**
-  Cobalt         0.074      **0.14**   0.059      0.038      0.048      **0.16**   0.07      0.0024
-  *Treatment*    0.086      **0.14**   0.097      **0.44**   0.043      **0.16**   0.076     **0.42**
-  -------------- ---------- ---------- ---------- ---------- ---------- ---------- --------- ----------
-
+<table2 />
 \
 4\. Discussion
 ==========
@@ -381,11 +370,11 @@ responses. It is possible that the combined use of public and private
 health care providers, such as in the United States, resulted in data
 reporting discrepancies.
 
-In developed countries ($3^{rd}$ and $4^{th}$ quartile), linear
+In developed countries (3<sup>rd</sup> and 4<sup>th</sup> quartile), linear
 accelerators were most highly correlated with relative rate of mortality
 in breast and prostate cancer. Meanwhile, in developing countries
-($1^{st}$ and $2^{nd}$ quartile), a stronger correlation was noted for
-cobalt machines than linear accelerators (i.e. $R^2$=0.14 and 0.075
+(1<sup>st</sup> and 2<sup>nd</sup> quartile), a stronger correlation was noted for
+cobalt machines than linear accelerators (i.e. R<sup>2</sup> = 0.14 and 0.075
 respectively). Linear accelerators are considered to be the
 standard-of-care for external beam radiotherapy in most developed
 countries, as they can deliver localized and collimated beams directly

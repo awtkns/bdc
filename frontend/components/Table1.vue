@@ -1,19 +1,22 @@
 <template>
-  <v-row justify="center" class="mx-4">
-    <b>Table 1:</b> The mean for breast and prostate cancer new cases, mortality and relative mortality are reported for each development quartile.
+  <v-row justify="center">
     <v-col>
-      <v-card outlined>
-        <v-card-subtitle class="text-center">Breast cancer per 100k women</v-card-subtitle>
-        <v-divider />
-        <v-data-table :headers="headers" :items="breast" hide-default-footer dense />
-      </v-card>
+      <v-hover v-slot:default="{ hover }" open-delay="100">
+        <v-card :elevation="hover ? 10 : 0" outlined>
+          <v-card-subtitle class="text-center">Breast cancer per 100k women</v-card-subtitle>
+          <v-divider />
+          <v-data-table :headers="headers" :items="breast" hide-default-footer dense />
+        </v-card>
+      </v-hover>
     </v-col>
     <v-col>
-      <v-card outlined>
-        <v-card-subtitle class="text-center">Prostate cancer per 100k men</v-card-subtitle>
-        <v-divider />
-        <v-data-table :headers="headers" :items="prostate" hide-default-footer dense />
-      </v-card>
+      <v-hover v-slot:default="{ hover }" open-delay="100">
+        <v-card :elevation="hover ? 10 : 0" outlined>
+          <v-card-subtitle class="text-center">Prostate cancer per 100k men</v-card-subtitle>
+          <v-divider />
+          <v-data-table :headers="headers" :items="prostate" hide-default-footer dense />
+        </v-card>
+      </v-hover>
     </v-col>
   </v-row>
 </template>

@@ -211,7 +211,7 @@ South America, parts of Europe and Oceania, while developing countries
 are localized in Africa and South Asia. Not all countries are
 represented in this choropleth due to the lack of HDI data.
 
-<v-img src="world.png" />
+<v-img src="figure1.png" />
 
 **Figure 1:** Choropleth map showing the global distribution of country 
 development level as indicated by their HDI quartiles.
@@ -227,36 +227,38 @@ number of newly-diagnosed cases.
 **Table 1:** The mean for breast and prostate cancer new cases, mortality 
 and relative mortality are reported for each development quartile.
 
-![image](figures/HDI_vs_rel_deaths_cancer_lm.png){width="100%"}
-
-
-As shown in Figure [\[fig:HDI\]](#fig:HDI){reference-type="ref"
-reference="fig:HDI"}, strong negative correlations were found between
+As shown in Figure 2, strong negative correlations were found between
 the relative mortality rate and the human development index. $R^2$=0.83
 and 0.86 for breast and prostate cancer respectively. Notably, Myanmar
 and Kiribati were observed to be significant outliers in the breast
 cancer relative mortality plot, visualized as blue and green
 respectively.
 
-![[\[fig:case\]]{#fig:case label="fig:case"}Relative mortality of breast
-and prostate cancer plotted against number of diagnostic devices (CT,
-MRI, PET, Gamma camera) and treatment technologies (linear accelerator
-and cobalt machine) per million population. Each point represents a
-country, colour-coded by the corresponding development
-quartile](figures/fin_tech_vs_case.png){#fig:case width="50%"}
+<v-img src="figure2.png" />
 
-Figure [1](#fig:case){reference-type="ref" reference="fig:case"} shows
-relative mortality versus the number of medical devices, with data
-points representing a single country. The plots show a distinct
+**Figure 2:** Relative mortality rates (%) of breast and prostate cancer plotted 
+ersus human development index (HDI) value. Each colour represents a country over a 
+period of time between 2000 - 2020. Points are ﬁtted linearly, resulting in 
+ﬁt equations of: RM = 160−155(HDI) and RM = 202−199(HDI), with R<sup>2</sup> values 
+of 0.83 and 0.86 for breast and prostate cancer respectively.
+
+Figure 3 shows relative mortality versus the number of medical devices, 
+with data points representing a single country. The plots show a distinct
 quartile-based clustering; countries with higher development levels
 (purple) have a lower relative mortality while having a greater number
 of medical devices per million population.
 
-![image](figures/tech_vs_expenditure.png){width="100%"}
+<v-img src="figure3.png" />
+
+**Figure 3:** Relative mortality of breast and prostate cancer plotted 
+number of diagnostic devices (CT,  MRI, PET, Gamma camera) 
+and treatment technologies (linear accelerator and cobalt machine) 
+per million population. Each point represents a
+country, colour-coded by the corresponding development
+quartile.
 
 Percentage of GDP spent on health expenditures for each country is
-plotted in Figure [\[fig:exp\]](#fig:exp){reference-type="ref"
-reference="fig:exp"} versus the number of diagnostic and treatment
+plotted in Figure 4 versus the number of diagnostic and treatment
 technologies (left and right respectively). All development index
 quartiles allotted a similar percentage of their total GDP towards
 health care. As expected, the more developed countries had access to
@@ -267,10 +269,15 @@ expenditures and number of treatment machinery, in which the highest
 development cluster (quartile 4) featured a strong-positive trend
 ($R^2$=0.59).
 
-![image](figures/bc_barplot_countries.png){width="100%"}
+<v-img src="figure4.png" />
 
-The bar plot in Figure [\[fig:bar\]](#fig:bar){reference-type="ref"
-reference="fig:bar"} visualizes the number of relative breast cancer
+**Figure 4:** National health expenditure as a percentage of annual GDP 
+plotted against the number of imaging devices (left) and treatment 
+technologies (right), for each country. Points are colour-coded based on 
+development quartile, and linear models were ﬁtted for each group. Linear 
+ﬁts and R2 values shown bottom-right.
+
+The bar plot in Figure 5 visualizes the number of relative breast cancer
 deaths in different countries from 2014-2016. Countries were categorized
 based on the presence of a national breast cancer screening program,
 such as routine mammography. The mean mortality rate of breast cancer in
@@ -281,8 +288,16 @@ difference between the means of the two groups. There were no datasets
 available for the existence of prostate cancer screening program in each
 countries from the WHO database.
 
+<v-img src="figure5.png" />
+
+**Figure 5:** Relative mortality of breast cancer (%) plotted for countries 
+with and without a national breast cancer screening program. Each bar 
+represents an individual country, with 33 and 110 countries with and without 
+a screening program respectively. Horizontal lines represent the mean, 
+72.06±28.92% and 44.73±23.87% for the ’No’ and ’Yes’ group respectively. 
+t-test was calculated to be 4.95 with a p-value of 1.055e-05.
+
   -------------- ---------- ---------- ---------- ---------- ---------- ---------- --------- ----------
-                                                                                             
   Modality       1st        2nd        3rd        4th        1st        2nd        3rd       4th
   CT             0.075      **0.17**   0.045      **0.25**   0.017      **0.17**   0.015     **0.16**
   MRI            0.079      **0.12**   0.016      **0.38**   0.028      **0.13**   0.065     **0.16**

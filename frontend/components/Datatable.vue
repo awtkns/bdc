@@ -1,7 +1,14 @@
 <template>
   <v-row justify="center">
     <v-col cols="9">
-      <v-select v-model="selected" :items="Object.values(datasetNames)" return-object @change="getDataset" label="Dataset" />
+      <v-select
+          v-model="selected"
+          :items="Object.values(datasetNames)"
+          @change="getDataset"
+          label="Dataset"
+          dense
+          outlined
+        />
     </v-col>
 
     <v-card outlined>
@@ -32,7 +39,7 @@ export default {
   methods: {
     async getDataset() {
       if (this.selected) {
-        this.dataset = await getDataset(this, this.selected)
+        this.dataset = await getDataset(this, this.selected);
       }
     }
   }

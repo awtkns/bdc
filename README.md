@@ -15,7 +15,7 @@ Make sure you are in your bdc conda env, or have installed the requirements with
 $ export FLASK_ENV=development
 
 # windows
-$ set FLASK_ENV=developemnt
+$ set FLASK_ENV=development
 ```
 
 Now run the backend server.

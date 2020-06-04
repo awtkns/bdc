@@ -1,0 +1,262 @@
+{
+  "entries": {
+    "asco": {
+      "Type": "article",
+      "Title": "Cancer Control in Low- and Middle-Income Countries: Is It Time to Consider Screening?",
+      "Journal": "Journal of Global Oncology",
+      "Volume": "",
+      "Number": "5",
+      "Pages": "1-8",
+      "Year": "2019",
+      "DOI": "10.1200/JGO.18.00200",
+      "Note": "PMID: 30908147",
+      "URL": "https://doi.org/10.1200/JGO.18.00200",
+      "Authors": [
+        {
+          "first": "Shailja",
+          "middle": "C.",
+          "last": "Shah"
+        },
+        {
+          "first": "Violet",
+          "last": "Kayamba"
+        },
+        {
+          "first": "Richard",
+          "middle": "M.",
+          "last": "Peek"
+        },
+        {
+          "first": "Douglas",
+          "last": "Heimburger"
+        }
+      ]
+    },
+    "owidcancer": {
+      "Type": "article",
+      "Title": "Cancer",
+      "Journal": "Our World in Data",
+      "Year": "2020",
+      "Note": "https://ourworldindata.org/cancer",
+      "Authors": [
+        {
+          "first": "Max",
+          "last": "Roser"
+        },
+        {
+          "first": "Hannah",
+          "last": "Ritchie"
+        }
+      ]
+    },
+    "globocan": {
+      "Type": "article",
+      "Title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+      "Journal": "CA: A Cancer Journal for Clinicians",
+      "Volume": "68",
+      "Number": "6",
+      "Pages": "394-424",
+      "Keywords": "cancer, epidemiology, incidence, survival",
+      "DOI": "10.3322/caac.21492",
+      "URL": "https://acsjournals.onlinelibrary.wiley.com/doi/abs/10.3322/caac.21492",
+      "Abstract": "Abstract This article provides a status report on the global burden of cancer worldwide using the GLOBOCAN 2018 estimates of cancer incidence and mortality produced by the International Agency for Research on Cancer, with a focus on geographic variability across 20 world regions. There will be an estimated 18.1 million new cancer cases (17.0 million excluding nonmelanoma skin cancer) and 9.6 million cancer deaths (9.5 million excluding nonmelanoma skin cancer) in 2018. In both sexes combined, lung cancer is the most commonly diagnosed cancer (11.6\\% of the total cases) and the leading cause of cancer death (18.4\\% of the total cancer deaths), closely followed by female breast cancer (11.6\\%), prostate cancer (7.1\\%), and colorectal cancer (6.1\\%) for incidence and colorectal cancer (9.2\\%), stomach cancer (8.2\\%), and liver cancer (8.2\\%) for mortality. Lung cancer is the most frequent cancer and the leading cause of cancer death among males, followed by prostate and colorectal cancer (for incidence) and liver and stomach cancer (for mortality). Among females, breast cancer is the most commonly diagnosed cancer and the leading cause of cancer death, followed by colorectal and lung cancer (for incidence), and vice versa (for mortality); cervical cancer ranks fourth for both incidence and mortality. The most frequently diagnosed cancer and the leading cause of cancer death, however, substantially vary across countries and within each country depending on the degree of economic development and associated social and life style factors. It is noteworthy that high-quality cancer registry data, the basis for planning and implementing evidence-based cancer control programs, are not available in most low- and middle-income countries. The Global Initiative for Cancer Registry Development is an international partnership that supports better estimation, as well as the collection and use of local data, to prioritize and evaluate national cancer control efforts. CA: A Cancer Journal for Clinicians 2018;0:1-31. © 2018 American Cancer Society",
+      "Year": "2018",
+      "Authors": [
+        {
+          "first": "Freddie",
+          "last": "Bray"
+        },
+        {
+          "first": "Jacques",
+          "last": "Ferlay"
+        },
+        {
+          "first": "Isabelle",
+          "last": "Soerjomataram"
+        },
+        {
+          "first": "Rebecca",
+          "middle": "L.",
+          "last": "Siegel"
+        },
+        {
+          "first": "Lindsey",
+          "middle": "A.",
+          "last": "Torre"
+        },
+        {
+          "first": "Ahmedin",
+          "last": "Jemal"
+        }
+      ]
+    },
+    "pc": {
+      "Type": "article",
+      "Title": "Epidemiology of Prostate Cancer",
+      "Volume": "10",
+      "DOI": "10.14740/wjon1191",
+      "Number": "2",
+      "Journal": "World Journal of Oncology",
+      "Year": "2019",
+      "Month": "Apr",
+      "Pages": "63–89",
+      "Authors": [
+        {
+          "first": "Prashanth",
+          "last": "Rawla"
+        }
+      ]
+    },
+    "who_j": {
+      "Type": "article",
+      "Year": "2011",
+      "Month": "06",
+      "Pages": "412-21",
+      "Title": "Differences in the availability of medicines for chronic and acute conditions in the public and private sectors of developing countries",
+      "Volume": "89",
+      "Journal": "Bulletin of the World Health Organization",
+      "DOI": "10.2471/BLT.10.084327",
+      "Authors": [
+        {
+          "first": "Alexandra",
+          "last": "Cameron"
+        },
+        {
+          "first": "Ilse",
+          "last": "Roubos"
+        },
+        {
+          "first": "Margaret",
+          "last": "Ewen"
+        },
+        {
+          "first": "Aukje",
+          "last": "Mantel-Teeuwisse"
+        },
+        {
+          "first": "Hubertus",
+          "last": "Leufkens"
+        },
+        {
+          "first": "Richard",
+          "last": "Laing"
+        }
+      ]
+    },
+    "who_fs": {
+      "Type": "misc",
+      "Title": "Cancer Fact Sheet",
+      "URL": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+      "Journal": "World Health Organization",
+      "Publisher": "World Health Organization",
+      "Year": "2018",
+      "Month": "Sep",
+      "Authors": [
+        {
+          "first": "World",
+          "middle": "Health",
+          "last": "Organization"
+        }
+      ]
+    },
+    "acs": {
+      "Type": "misc",
+      "Title": "Economic Impact of Cancer",
+      "URL": "https://www.cancer.org/cancer/cancer-basics/economic-impact-of-cancer.html",
+      "Journal": "American Cancer Society",
+      "Publisher": "American Cancer Society",
+      "Year": "2018",
+      "Month": "Jan",
+      "Authors": [
+        {
+          "first": "American",
+          "middle": "Cancer",
+          "last": "Society"
+        }
+      ]
+    },
+    "cost": {
+      "Type": "article",
+      "Title": "Patterns of Cancer Care Costs in a Country With Detailed Individual Data",
+      "DOI": "10.1097/mlr.0000000000000330",
+      "Journal": "Medical Care",
+      "Year": "2015",
+      "Pages": "1",
+      "Authors": [
+        {
+          "first": "Tony",
+          "last": "Blakely"
+        },
+        {
+          "first": "June",
+          "last": "Atkinson"
+        },
+        {
+          "first": "Giorgi",
+          "last": "Kvizhinadze"
+        },
+        {
+          "first": "Nick",
+          "last": "Wilson"
+        },
+        {
+          "first": "Anna",
+          "last": "Davies"
+        },
+        {
+          "first": "Philip",
+          "last": "Clarke"
+        }
+      ]
+    },
+    "bc": {
+      "Type": "article",
+      "Title": "ABC of breast diseases: Breast cancer---epidemiology, risk factors, and genetics",
+      "Volume": "321",
+      "DOI": "10.1136/bmj.321.7261.624",
+      "Number": "7261",
+      "Journal": "Bmj",
+      "Year": "2000",
+      "Month": "Sep",
+      "Pages": "624-628",
+      "Authors": [
+        {
+          "first": "K",
+          "last": "Mcpherson"
+        }
+      ]
+    },
+    "gapminder": {
+      "Type": "misc",
+      "Title": "gapminder database",
+      "URL": "https://www.gapminder.org/data/",
+      "Journal": "Gapminder"
+    },
+    "gho_bc": {
+      "Type": "misc",
+      "Title": "GHO | By category | Primary and secondary prevention of cancer - Response by country",
+      "URL": "https://apps.who.int/gho/data/view.main.24766",
+      "Journal": "World Health Organization",
+      "Publisher": "World Health Organization",
+      "Year": "2020",
+      "Month": "Feb"
+    },
+    "lab": {
+      "Type": "misc",
+      "Title": "README GTR DATA Documents",
+      "URL": "https://ftp.ncbi.nlm.nih.gov/pub/GTR/data/_README.html",
+      "Journal": "National Center for Biotechnology Information",
+      "Publisher": "U.S. National Library of Medicine",
+      "Year": "2014",
+      "Month": "Sep"
+    },
+    "devices": {
+      "Type": "misc",
+      "Title": "Baseline country survey on medical devices",
+      "URL": "http://gamapserver.who.int/gho/interactive_charts/health_technologies/medical_equipment/atlas.html",
+      "Journal": "World Health Organization",
+      "Publisher": "World Health Organization",
+      "Year": "2014"
+    }
+  }
+}

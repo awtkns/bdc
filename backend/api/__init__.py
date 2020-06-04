@@ -3,6 +3,7 @@ from flask import request
 from flask_cors import CORS
 import pandas as pd
 import numpy as np
+import json
 
 from .data import analysis
 
@@ -16,6 +17,8 @@ for _ in range(1000):
     colour = str(list(np.random.choice(range(256), size=3))).replace("[", "rgb(").replace("]", ")")
     colours.append(colour)
 
+with open('api/data/bibliography/bibliography.json') as f:
+  citations = json.load(f)
 
 @app.route('/datasetNames')
 def get_datasetNames():
@@ -109,5 +112,9 @@ def get_scatter_chart(datasetName):
 
     return 'ok'
     # return data_dict
+
+@app.route('/citations')
+def get_citations():
+    return citations, 200
 
 

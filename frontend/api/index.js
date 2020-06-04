@@ -1,7 +1,7 @@
 export const getDatasetNames = async ({ $axios }) =>
   (await $axios.get('/datasetNames')).data;
 
-  export const getDataset = async ({ $axios }, datasetName) =>
+export const getDataset = async ({ $axios }, datasetName) =>
   (await $axios.get(`/dataset/${datasetName}`)).data;
 
 export const getBarChartData = async ({ $axios }, datasetName, variables, countries, transpose=false) => {
@@ -15,3 +15,6 @@ export const getLineChartData = async ({ $axios }, datasetName, variables, count
   const data = {'cols': variables, transpose: transpose, 'countries': countries};
   return (await $axios.put(`/lineChartData/${datasetName}`, data, config)).data
 };
+
+export const getCitations = async ({ $axios }) =>
+  (await $axios.get('/citations')).data;

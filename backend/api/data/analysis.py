@@ -48,7 +48,23 @@ def get_datasets():
             df = read_csv(fp)
 
             if datasetName == "country_year_master":
-                df = df[["year","Existence of national screening program for breast cancer","Existence of national screening program for cervical cancer","Existence of national HPV vaccination programme","Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)","Current health expenditure (CHE) per capita in PPP int$","Current health expenditure (CHE) per capita in US$","Out-of-pocket expenditure (OOP) per capita in PPP int$","Out-of-pocket expenditure (OOP) per capita in US$","Breast cancer deaths per 100000 women","Breast cancer new cases per 100000 women","Gdp pc usd inflation adjusted","Gni pc constant 2010 u","Prostate cancer deaths per 100000 men","Prostate cancer new cases per 100000 men"]]
+                df = df[[
+                    "year",
+                    "Existence of national screening program for breast cancer",
+                    "Existence of national screening program for cervical cancer",
+                    "Existence of national HPV vaccination programme",
+                    "Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)",
+                    "Current health expenditure (CHE) per capita in PPP int$",
+                    "Current health expenditure (CHE) per capita in US$",
+                    "Out-of-pocket expenditure (OOP) per capita in PPP int$",
+                    "Out-of-pocket expenditure (OOP) per capita in US$",
+                    "Breast cancer deaths per 100000 women",
+                    "Breast cancer new cases per 100000 women",
+                    "Gdp pc usd inflation adjusted",
+                    "Gni pc constant 2010 u",
+                    "Prostate cancer deaths per 100000 men",
+                    "Prostate cancer new cases per 100000 men"
+                ]]
 
             datasetNames[i] = datasetName
             dataframes[datasetName] = df

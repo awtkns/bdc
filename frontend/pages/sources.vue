@@ -4,9 +4,8 @@
     <p>We pulled our data from many sources. Here is a list of all of them.</p>
     <div class="citations">
       <div v-for="(citation, i) in citations">
-        <v-card class="citation">
+        <v-card v-bind:id=i class="citation">
           <h1>{{citation.Journal}}</h1>
-          {{ i }}
           <div v-for="(value, key) in citation">
             <span class="citation-title">{{key}}: </span>
 
@@ -28,8 +27,6 @@
           </div>
         </v-card>
       </div>
-
-      <div id="yes">I AM HERE</div>
     </div>
   </div>
 </template>
@@ -49,6 +46,11 @@ export default {
   async created() {
     var response = await getCitations(this);
     this.citations = response["entries"];
+    setTimeout(function(scope) {
+      var hash = window.location.hash;
+      window.location.hash = "";
+      window.location.hash = hash;
+    }, 0, this);
   }
 }
 </script>

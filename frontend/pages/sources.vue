@@ -46,6 +46,9 @@ export default {
   async created() {
     var response = await getCitations(this);
     this.citations = response["entries"];
+
+    // This is a workaround to appease Chrome's idiocy
+    // Sorry
     setTimeout(function(scope) {
       var hash = window.location.hash;
       window.location.hash = "";

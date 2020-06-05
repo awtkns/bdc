@@ -1,5 +1,16 @@
 <template>
   <v-app>
+    <v-system-bar dark>
+      <v-spacer />
+      Website is under development. Full paper can be found&nbsp<a href="BDC_2020_submission_Fedrigo_Haid_Watkins_Winata.pdf">here</a>.
+      <v-spacer />
+    </v-system-bar>
+
+<!--    <v-list style="position: fixed">-->
+<!--      <v-list-item v-for="link in nav" link>-->
+<!--        {{ link }}-->
+<!--      </v-list-item>-->
+<!--    </v-list>-->
 
     <v-content>
       <v-container>
@@ -9,7 +20,7 @@
 
     <v-speed-dial  v-model="fab" fixed bottom right>
       <template v-slot:activator>
-        <v-btn v-model="fab" dark fab>
+        <v-btn v-model="fab" dark fab color="info">
           <v-icon v-if="fab">mdi-close</v-icon>
           <v-icon v-else>mdi-menu</v-icon>
         </v-btn>
@@ -62,7 +73,8 @@
 export default {
   data: () => ({
     drawer: false,
-    fab: false
+    fab: false,
+    nav: ['Abstract', 'Introduction', 'Methods']
   }),
   methods: {
     toggleDarkMode() { return  this.$vuetify.theme.dark = !this.$vuetify.theme.dark }

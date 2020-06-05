@@ -62,36 +62,36 @@ have shifted towards older populations, resulting in cancer becoming an
 ever-increasing burden to both the country's citizens and its healthcare
 system. In 2018, the cancer mortality rate was estimated to be
 approximately 9.6 million globally, with approximately 70% of deaths
-occurring in low-to-middle income countries [@asco].
+occurring in low-to-middle income countries [1](/sources#asco).
 
 In addition to the high mortality rate associated with cancer, cancer
 also applies a significant strain to both health care systems and the
 economy. In 2015, the direct cost of treating cancer in the United
 States, a country which devotes significant resources towards cancer
-treatment, was estimated to be \$80.2 billion [@acs]. In contrast,
+treatment, was estimated to be \$80.2 billion [2](/sources#acs). In contrast,
 developing countries are historically adapted towards treating
 infectious and parasitic diseases rather than chronic conditions such as
-cancer [@who_j]. This results in developing countries being ill-equipped
+cancer [3](/sources#who_j). This results in developing countries being ill-equipped
 to treat cancer, a disease that often requires extensive intervention
-and long-term treatment plans [@who_j].
+and long-term treatment plans [3](/sources#who_j).
 
 While evaluating the effects of cancer, it is critical to acknowledge
 that the term is used to broadly refer to over 200 distinct and
-heterogeneous diseases [@owidcancer]. Some types of cancer are
+heterogeneous diseases [4](/sources#owidcancer). Some types of cancer are
 associated with poor prognosis and low rates of survival, while others
 are slow-growing and easily treatable if detected early. For instance,
 breast and prostate cancers have relatively high 5-year survival rates
-(89.7% and 98.6% respectively) [@owidcancer].
+(89.7% and 98.6% respectively) [4](/sources#owidcancer).
 
 Most developed countries have adopted various methods of prevention and
 screening, providing early diagnosis of cancer. Prevention focuses on
 limiting risk factors such as smoking, radiation, and carcinogens. For
 example, many governments have implemented vaccinations to limit the
 spread of human pappillomavirus (HPV), a virus directly linked to
-cervical and oropharyngeal cancer [@who_fs]. Meanwhile, screening and
+cervical and oropharyngeal cancer [5](/sources#who_fs). Meanwhile, screening and
 early diagnosis are part of an early detection strategy. Early detection
 has been shown to have increased the 5-year cancer survival rate in the
-U.S. between 1970-77 and 2007-13 [@owidcancer]. Screening procedures
+U.S. between 1970-77 and 2007-13 [4](/sources#owidcancer). Screening procedures
 often involve applying simple tests on general population so that
 diseases can be identified before symptoms manifest. At the very least,
 screening procedures aim to diagnose individuals with cancer at an
@@ -103,12 +103,12 @@ diagnostic procedures and technology that allows the confirmation cases.
 Breast and prostate cancer is the most common cancer diagnosis for
 females and males respectively, both contributing significantly to
 cancer-related deaths of each sex, following only lung and colorectal
-cancer [@owidcancer] [@pc] [@globocan]. Breast cancer can be screened
+cancer [4](/sources#owidcancer)[6](/sources#pc)[7](/sources#globocan). Breast cancer can be screened
 using mammograms, while prostate cancer is detected through digital
 rectal exams (DRE) or by measuring prostate-specific antigen (PSA) in
 blood. Survival rates of breast and prostate cancer depend significantly
 on the timing of diagnosis as response to treatment is inversely
-correlated with disease progression [@globocan].
+correlated with disease progression [7](/sources#globocan).
 
 Despite the technological ability to perform early screening, the
 prognosis associated with breast and prostate cancer varies considerably
@@ -127,10 +127,10 @@ countries.
 
 Breast and prostate cancer were selected due to their frequency in the
 population, as well as the fact that they primarily impact both female
-and male populations independently [@owidcancer]. Furthermore, breast
+and male populations independently [4](/sources#owidcancer). Furthermore, breast
 and prostate cancer have widely available screening methods, treatment
 methods, and the survival rates are highly correlated with early
-detection [@pc] [@globocan].
+detection [6](/sources#pc)[7](/sources#globocan).
 
 We used datasets obtained from Gapminder and the Global Health
 Observatory (GHO) [database](https://www.who.int/gho/database/en/),
@@ -139,20 +139,20 @@ to provide insight on the level of development, the availability of
 cancer screening, the availability of early diagnosis measures, as well
 as other cancer statistics in each country.
 
-The Human Development Index (HDI) [@gapminder], used in this paper as a
+The Human Development Index (HDI) [8](/sources#gapminder), used in this paper as a
 proxy measure for social development and economic growth, is based on
 the Gross Domestic Product (GDP) and Gross National Income (GNI) per
-capita, and other socio-economic factors [@gapminder].
+capita, and other socio-economic factors [8](/sources#gapminder).
 
 Availability of screening and early diagnosis procedures in each country
 are evaluated based on the number of diagnostic and treatment devices
-commonly used for breast, prostate and other types of cancer [@devices].
+commonly used for breast, prostate and other types of cancer [9](/sources#devices).
 Computed tomography (CT), magnetic resonance imaging (MRI), positron
 emission tomography (PET), and gamma cameras are commonly used to detect
 and quantify tumours in cancer patients. Meanwhile, linear accelerators
 (LINACs) and cobalt machines are used in external beam radiation therapy
 treatment. Additionally, the existence of national screening programs
-for breast cancer [@gho_bc] are used to indicate the availability and
+for breast cancer [10](/sources#gho_bc) are used to indicate the availability and
 accessibility of breast cancer screening. Data for the variables are
 obtained for as many countries as possible from the World Health
 Organization database.
@@ -332,12 +332,12 @@ shift in breast and prostate cancer epidemiology, in which the duration
 of progression-free survival has increased over recent years. These
 circumstances would result in an increased need for long-term chronic
 care units for patients diagnosed with breast or prostate cancer
-[@who_j]. Although health care systems in developed countries have
+[3](/sources#who_j). Although health care systems in developed countries have
 adapted to cope with the health and economic burden of chronic diseases,
 developing countries do not have the same resources and infrastructure
-available [@who_j]. Health care systems in developing countries tend to
+available [3](/sources#who_j). Health care systems in developing countries tend to
 focus on acute treatment that manages infectious and parasitic diseases,
-with less priority on long-term care [@who_j]. Together, the differing
+with less priority on long-term care [3](/sources#who_j). Together, the differing
 health care strategies between high and low HDI countries could
 contribute to the pattern seen in Figure
 [\[fig:HDI\]](#fig:HDI){reference-type="ref" reference="fig:HDI"}.
@@ -399,7 +399,7 @@ To assess the economical aspect, the annual health expenditure per GDP
 (%) was used in Figure [\[fig:exp\]](#fig:exp){reference-type="ref"
 reference="fig:exp"} to approximate a country's investment towards the
 health sector. As cancer care contributes to the high cost of the health
-care system [@cost], it is assumed that the number of devices would be
+care system [11](/sources#cost), it is assumed that the number of devices would be
 linearly correlated with the percentage of health expenditure per GDP.
 In the least developed countries ($1^{st}$ quartile), correlation
 between health expenditure and number of medical devices per million is
@@ -423,10 +423,10 @@ accelerators and cobalt machines. Therefore, it is possible that early
 diagnosis - accomplished in part using diagnostic devices, are able to
 cover their costs by reducing downstream treatment costs. For instance,
 Stage I breast or prostate cancer are typically treatable with
-relatively minor surgery or radiation therapy [@pc]. Conversely, Stage
+relatively minor surgery or radiation therapy [6](/sources#pc). Conversely, Stage
 IV breast cancers are less responsive to treatment, and patients are
 likely to spend more on routine tests and medication required to manage
-symptoms as the disease progresses [@bc] [@cost].
+symptoms as the disease progresses [12](/sources#bc)[11](/sources#cost).
 
 From the bar plots shown in Figure
 [\[fig:bar\]](#fig:bar){reference-type="ref" reference="fig:bar"}, the
@@ -499,10 +499,3 @@ throughout this project. Special thanks to Dr. Aaron Goldman for his
 valuable insight regarding precision medicine. Additional thanks goes to
 Dr. Carlos Uribe for his input regarding nuclear medicine, and the
 importance of quantitative PET on predicting patient outcome.
-
-<script>
-    import Figure from "../components/ImageFigure";
-    export default {
-        components: {Figure}
-    }
-</script>

@@ -3,9 +3,28 @@
     <v-col>
       <v-hover v-slot:default="{ hover }" open-delay="100">
         <v-card :elevation="hover ? 10 : 0" outlined>
-          <v-card-subtitle class="text-center">Breast cancer per 100k women</v-card-subtitle>
-          <v-divider />
-          <v-data-table :headers="headers" :items="rows" hide-default-footer dense />
+          <v-data-table :headers="headers" :items="rows" hide-default-footer dense>
+            <template v-slot:header>
+              <thead class="v-data-table-header">
+                <tr>
+                  <th
+                    :colspan="1"
+                    class="text-center parent-header ma-0 pa-0"
+                  />
+                  <th
+                    :colspan="4"
+                    v-text="'Breast cancer per 100k women'"
+                    class="text-center parent-header ma-0 pa-0"
+                  />
+                  <th
+                    :colspan="4"
+                    v-text="'Prostate cancer per 100k men'"
+                    class="text-center parent-header ma-0 pa-0"
+                  />
+                </tr>
+              </thead>
+            </template>
+          </v-data-table>
         </v-card>
       </v-hover>
     </v-col>
@@ -21,7 +40,7 @@ export default {
       { text: '1st', value: 'b1' },
       { text: '2nd', value: 'b2' },
       { text: '3rd', value: 'b3' },
-      { text: '4th', value: 'b4' },
+      { text: '4th', value: 'b4',  divider: true, },
       { text: '1st', value: 'p1' },
       { text: '2nd', value: 'p2' },
       { text: '3rd', value: 'p3' },

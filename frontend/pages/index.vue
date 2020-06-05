@@ -1,8 +1,6 @@
 <template>
   <v-row justify="center">
     <v-col lg="8" >
-      <n-link :to="{path: 'sources', hash: 'yes'}">here</n-link>
-      <a href="sources#yes">here</a>
       <div v-text="attributes.subtitle" class="subtitle text-center" />
       <div v-text="attributes.title" class="title font-weight-bold mb-2 text-center" />
       <div class="subtitle text-center mb-2">

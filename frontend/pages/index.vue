@@ -9,8 +9,6 @@
       <div v-for="a in attributes.affiliations" class="subtitle text-center" v-text="a" />
       <Abstract :text="attributes.abstract" :keywords="attributes.keywords" class="mb-8"/>
       <Manuscript class="text-justify" />
-      <Table1 />
-<!--      <Datatable :datasetNames="datasetNames" />-->
     </v-col>
   </v-row>
 </template>
@@ -22,6 +20,7 @@ import {getDatasetNames} from "../api";
 import Abstract from "../components/Abstract";
 import Table1 from "../components/Table1";
 import Table2 from "../components/Table2";
+import ImageFigure from "../components/ImageFigure";
 
 export default {
   name: 'Blog',
@@ -30,9 +29,10 @@ export default {
     Chart,
     Table1,
     Table2,
+    ImageFigure,
     Manuscript: {
       extends: fm.vue.component,
-      components: { Chart, Table1, Table2 }
+      components: { Chart, Table1, Table2, ImageFigure }
     }
   },
   layout: 'homepage',

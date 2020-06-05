@@ -211,7 +211,7 @@ South America, parts of Europe and Oceania, while developing countries
 are localized in Africa and South Asia. Not all countries are
 represented in this choropleth due to the lack of HDI data.
 
-<v-img src="figure1.png" />
+<ImageFigure src="figure1.png" />
 
 **Figure 1:** Choropleth map showing the global distribution of country 
 development level as indicated by their HDI quartiles.
@@ -234,7 +234,7 @@ and Kiribati were observed to be significant outliers in the breast
 cancer relative mortality plot, visualized as blue and green
 respectively.
 
-<v-img src="figure2.png" />
+<ImageFigure src="figure2.png" />
 
 **Figure 2:** Relative mortality rates (%) of breast and prostate cancer plotted 
 ersus human development index (HDI) value. Each colour represents a country over a 
@@ -248,7 +248,7 @@ quartile-based clustering; countries with higher development levels
 (purple) have a lower relative mortality while having a greater number
 of medical devices per million population.
 
-<v-img src="figure3.png" />
+<ImageFigure src="figure3.png" />
 
 **Figure 3:** Relative mortality of breast and prostate cancer plotted 
 number of diagnostic devices (CT,  MRI, PET, Gamma camera) 
@@ -269,7 +269,7 @@ expenditures and number of treatment machinery, in which the highest
 development cluster (quartile 4) featured a strong-positive trend
 ($R^2$=0.59).
 
-<v-img src="figure4.png" />
+<ImageFigure src="figure4.png" />
 
 **Figure 4:** National health expenditure as a percentage of annual GDP 
 plotted against the number of imaging devices (left) and treatment 
@@ -288,7 +288,7 @@ difference between the means of the two groups. There were no datasets
 available for the existence of prostate cancer screening program in each
 countries from the WHO database.
 
-<v-img src="figure5.png" />
+<ImageFigure src="figure5.png" />
 
 **Figure 5:** Relative mortality of breast cancer (%) plotted for countries 
 with and without a national breast cancer screening program. Each bar 
@@ -499,3 +499,10 @@ throughout this project. Special thanks to Dr. Aaron Goldman for his
 valuable insight regarding precision medicine. Additional thanks goes to
 Dr. Carlos Uribe for his input regarding nuclear medicine, and the
 importance of quantitative PET on predicting patient outcome.
+
+<script>
+    import Figure from "../components/ImageFigure";
+    export default {
+        components: {Figure}
+    }
+</script>
